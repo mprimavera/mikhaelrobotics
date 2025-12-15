@@ -1,0 +1,141 @@
+"use client";
+
+import {
+  Navbar,
+  NavBody,
+  NavItems,
+  MobileNav,
+  NavbarLogo,
+  NavbarButton,
+  MobileNavHeader,
+  MobileNavToggle,
+  MobileNavMenu,
+} from "@/components/ui/resizable-navbar";
+
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+export function NavbarMenu() {
+  const navItems = [
+    {
+      name: "Resume",
+      link: "/comingSoon",
+    },
+    {
+      name: "Projects",
+      link: "/comingSoon",
+    },
+    {
+      name: "Products",
+      link: "/comingSoon",
+    },
+    {
+      name: "Machines",
+      link: "/comingSoon",
+    },
+    {
+      name: "IP",
+      link: "/comingSoon",
+    },
+  ];
+
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  return (
+    <div className="relative w-full">
+      <Navbar >
+        {/* Desktop Navigation */}
+        <NavBody>
+        
+        {/* Logo Link */}
+        <a
+          href="http://localhost:3000"
+          className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black hover:-translate-y-0.5 transition-all duration-300"
+        >
+          <img
+            src="/logo.png"
+            alt="logo"
+            width={50}
+            height={50}
+          />
+          <span className="font-medium text-black dark:text-white">MikhaelRobotics.AI™</span>
+        </a>
+
+
+          <NavItems items={navItems} />
+          <div className="flex items-center gap-4">
+
+            <Link href="/connect">
+              <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[3px] focus:outline-none active:outline-none hover:-translate-y-0.5 transition-all duration-300">
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                  Connect
+                </span>
+              </button>
+            </Link>
+
+          </div>
+        </NavBody>
+
+        {/* Mobile Navigation */}
+        <MobileNav>
+          <MobileNavHeader>
+
+        {/* Logo Link */}
+        <a
+          href="http://localhost:3000"
+          className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+        >
+          <img
+            src="/logo.png"
+            alt="logo"
+            width={50}
+            height={50}
+          />
+          <span className="font-medium text-black dark:text-white">MikhaelRobotics.AI™</span>
+        </a>
+
+            <MobileNavToggle
+              isOpen={isMobileMenuOpen}
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            />
+          </MobileNavHeader>
+
+          <MobileNavMenu
+            isOpen={isMobileMenuOpen}
+            onClose={() => setIsMobileMenuOpen(false)}
+          >
+            {navItems.map((item, idx) => (
+              <a
+                key={`mobile-link-${idx}`}
+                href={item.link}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="relative text-neutral-600 dark:text-neutral-300"
+              >
+                <span className="block">{item.name}</span>
+              </a>
+            ))}
+            <div className="flex w-full flex-col gap-4">
+
+              <Link href="/connect"
+               onClick={() => setIsMobileMenuOpen(false)}>
+              <button className="relative inline-flex h-12 w-full overflow-hidden rounded-full p-[2px] hover:p-[3px] transition-all duration-300 focus:outline-none active:outline-none">
+                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                  <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                    Connect
+                  </span>
+                </button>
+              </Link>
+
+
+
+            </div>
+          </MobileNavMenu>
+        </MobileNav>
+      </Navbar>
+      {/* Navbar */}
+    </div>
+  );
+
+};

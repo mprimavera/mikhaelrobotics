@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 w-full flex flex-col bg-black/0 items-center py-8 text-sm sm:text-xs text-blue-500">
+    <footer className="fixed bottom-0 w-full flex flex-col bg-black/0 items-center py-8 text-sm sm:text-xs text-blue-500 z-10">
       <div className="flex items-center gap-4">
         {/* Facebook */}
 {/*         <a href="#" className="hover:-translate-y-0.5 transition-all duration-300">
@@ -19,7 +19,9 @@ export default function Footer() {
           </svg>
         </a> */}
         {/* LinkedIn */}
-        <a href="www.linkedin.com/in/mikhaelrobotics" className="hover:-translate-y-0.5 transition-all duration-300">
+        <a href="https://linkedin.com/in/mikhaelrobotics"
+         target="blank"
+         className="hover:-translate-y-0.5 transition-all duration-300">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6M6 9H2v12h4zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
@@ -31,7 +33,9 @@ export default function Footer() {
           </svg>
         </a> */}
         {/* GitHub */}
-        <a href="https://github.com/mprimavera" className="hover:-translate-y-0.5 transition-all duration-300">
+        <a href="https://github.com/mprimavera"
+         target="blank"
+         className="hover:-translate-y-0.5 transition-all duration-300">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M9 18c-4.51 2-5-2-7-2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
