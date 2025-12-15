@@ -17,7 +17,7 @@ export const Navbar: React.FC = () => {
         <div className="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="text-blue-500 text-xl text-bold hover:text-sky-500 hover:drop-shadow-[0_0_12px_rgba(14,165,233,0.8)] focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none"
+            className="text-blue-400 text-xl text-bold hover:-translate-y-0.5 transition-all duration-300 focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none"
           >
             Connect
           </button>
