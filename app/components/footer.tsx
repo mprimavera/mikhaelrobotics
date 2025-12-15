@@ -40,7 +40,7 @@ export default function Footer() {
       </div>
 
       <p className="mt-4 text-center text-gray-400 text-sm">
-        Copyright © 2025  MikhaelRobotics.AI™  All rights reserved.
+        Copyright © 2025  MikhaelRobotics™  All rights reserved.
       </p>
     </footer>
   );
