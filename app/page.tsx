@@ -41,9 +41,9 @@ export default function Home() {
               B.S. in Robotics Engineering, Worcester Polytechnic Institute, December, 2025
             </p>
 
-            <p className="max-w-full text-sm sm:text-lg leading-10 tracking-tight text-black dark:text-zinc-300">
+            {/* <p className="max-w-full text-sm sm:text-lg leading-10 tracking-tight text-black dark:text-zinc-300">
               M.S. in Artificial Intelligence, Johns Hopkins University, starting May, 2026
-            </p>
+            </p> */}
             
           </div>
 
