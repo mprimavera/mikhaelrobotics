@@ -55,7 +55,7 @@ export default function Home() {
           </AccordionTrigger>
             <AccordionContent className="max-h-50 overflow-y-auto px-2 bg-black/50">
               <p className="font-light text-sm sm:text-base ">
-                My journey in engineering began with machining metal parts for a startup called Glidecam. Over the years, I progressed
+                My journey in engineering began with machining metal parts for a startup called Glidecam, when I was in high school. Over the years, I progressed
                 to managing logistics.
               </p>
 
