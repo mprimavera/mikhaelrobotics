@@ -288,10 +288,9 @@ export default function Resume() {
         </CardContent>
 
         <CardHeader className="w-full md:w-1/2">
-          <CardTitle>I developed dynamic price modeling using multivariable calculus and MATLAB</CardTitle>
+          <CardTitle>Dynamic price modeling</CardTitle>
           <CardDescription>
-          I learned through real-life experience what determines whether a company survives: coming up with a mathematical
-          model of a proper go-to-market strategy for profitability.
+          Go-to-market strategy for profitability.
           </CardDescription>
         </CardHeader>
       </Card>
@@ -372,9 +371,7 @@ export default function Resume() {
         <CardHeader className="w-full md:w-1/2">
           <CardTitle>The first prototype for AlphaOmega LLC</CardTitle>
           <CardDescription>
-          In the process of learning to invest, I had built an Ethereum mining rig for about $4,000 USD. At the time, they were
-          selling on Etsy for $10,000 to $20,000. I had inadvertently created the first prototype that would lead to the launch of
-          AlphaOmega LLC in 2018.
+            Cryptocurrency mining rig.
           </CardDescription>
         </CardHeader>
       </Card>
