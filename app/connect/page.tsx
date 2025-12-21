@@ -41,7 +41,7 @@ export default function ConnectPage() {
         rel="noopener noreferrer"
         className="text-blue-500 text-center break-all sm:break-normal hover:text-blue-400"
       >
-        MikhaelRobotics on LinkedIn
+        Michael Primavera on LinkedIn
       </a>
     }
     description={null}
