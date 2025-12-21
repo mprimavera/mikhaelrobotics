@@ -84,7 +84,7 @@ export function NavbarMenu() {
 
         {/* Logo Link */}
         <a
-          href="http://localhost:3000"
+          href="https://mikhaelrobotics.vercel.app/"
           className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black hover:-translate-y-0.5 transition-all duration-300"
         >
           {/* <img
