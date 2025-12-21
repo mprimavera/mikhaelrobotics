@@ -50,7 +50,7 @@ export default function Resume() {
       {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
         <p 
           className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-            I custom built this portfolio completely from scratch (no templates or tutorials). I used GitHub, VSCode, NEXT.JS with React and
+            I custom built this portfolio completely from scratch (no templates or tutorials). I used VSCode for an IDE, GitHub, NEXT.JS with React
              route handling, TailwindCSS, Aceternity UI, ShadCN, Lucide, and ChatGPT.
         </p>
 
@@ -378,12 +378,9 @@ export default function Resume() {
           </CardDescription>
         </CardHeader>
       </Card>
-
-
     </div>
   ),
 },
-
 
 {
   title: "10/2017",
@@ -418,7 +415,6 @@ export default function Resume() {
     </div>
   ),
 },
-
 
 {
   title: "2008-2018",
