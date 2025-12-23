@@ -24,7 +24,7 @@ export function NavbarMenu() {
     },
     {
       name: "Projects",
-      link: "/comingSoon",
+      link: "/projects",
     },
     {
       name: "Products",

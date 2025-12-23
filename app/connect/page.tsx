@@ -12,7 +12,7 @@ export default function ConnectPage() {
     <div className="relative w-full min-h-screen flex items-center justify-center px-4 md:px-8 lg:px-10">
       
       <ul className="w-full max-w-4xl grid gap-6 justify-items-center">
-        <Vortex baseSpeed={0.01} baseHue={180} rangeSpeed={.3}>
+        <Vortex baseHue={180} >
 
         <div className="space-y-6">
         {/* Email direct */}

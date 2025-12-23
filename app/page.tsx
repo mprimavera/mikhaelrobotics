@@ -14,18 +14,26 @@ export default function Home() {
     <div className="relative w-full h-screen ">
 
       {/*Background Effect */}
-      <WavyBackground
+      {/* <WavyBackground
        blur={10}
        waveOpacity={0.15}
        colors={["#3DB8FF", "#3D58FF", "#3DFFE4", "#96CBFD", "#FAC3FE"]}
        waveWidth={60}
-       className="min-h-screen">
+       className="min-h-screen"> */}
 
       {/* Main content */}
-      <div className="relative flex items-center justify-center font-sans z-0 w-full h-full">
-        <main className="flex flex-col items-center justify-center px-4 sm:px-16 w-full max-w-3xl">
+      <div className="relative flex items-center justify-center font-sans w-full h-full
+        bg-[url('/arm_chip.jpeg')]
+        bg-cover bg-center bg-no-repeat">
+        <div className="absolute inset-0 bg-black/65 pointer-events-none z-0
+        [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_100%)]" />
+        <main className="
+            relative z-10
+            flex flex-col items-center justify-center
+            px-4 sm:px-16
+            w-full max-w-3xl
+            ">
           <div className="flex flex-col items-center gap-6 text-center">
-
 
             {/* Main Heading */}
             <h1 className="max-w-full text-4xl sm:text-6xl font-semibold leading-10 tracking-tight text-zinc-300">
@@ -36,7 +44,7 @@ export default function Home() {
             {/* Details */}
 
           <div className="flex flex-col items-center gap-6 text-center mt-10">
-            <p className="max-w-full text-sm sm:text-lg leading-10 tracking-tight text-zinc-300">
+            <p className="max-w-full text-sm font-semibold sm:text-lg leading-10 tracking-tight text-zinc-300">
               B.S. in Robotics Engineering, Worcester Polytechnic Institute, December, 2025
             </p>
 
@@ -53,7 +61,7 @@ export default function Home() {
           <AccordionTrigger className="max-w-full justify-center text-sm sm:text-lg leading-10 tracking-tight text-zinc-300">
             Learn More
           </AccordionTrigger>
-            <AccordionContent className="max-h-50 overflow-y-auto px-2 bg-black/50">
+            <AccordionContent className="max-h-50 overflow-y-auto px-2 bg-black/70">
               <p className="font-light text-slate-300 text-sm sm:text-base ">
                 My journey in engineering began with machining metal parts for a startup called Glidecam when I was in high school. Over the years, I progressed
                 to managing logistics.
@@ -79,7 +87,7 @@ export default function Home() {
 
         </main>
       </div>
-      </WavyBackground>
+      {/* </WavyBackground> */}
     </div>
   );
 }
