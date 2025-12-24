@@ -14,7 +14,7 @@ export default function projects() {
           My Projects (more coming over the next few days...)
         </h2>
         <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-          I’ve included videos for some of the projects I’ve worked on to demonstrate the technical skills I’ve developed.
+          I’ve included videos showing some of the projects I’ve worked on to demonstrate the technical skills I’ve developed.
           This is not intended to be a comprehensive list. Additionally, while I was at Milara, I was not permitted to take
           photos or videos of the sorters I worked on. During my time there, I performed field service engineering as part
           of their software team at cleanroom semiconductor fabrication facilities.
@@ -43,8 +43,8 @@ export default function projects() {
           </p>
 
           <p className="text-sm text-neutral-400">
-            My primary responsibility was programming the central UR5, after selecting it to control the system via the PLC.
-            I handled the video editing, as well.
+            My primary responsibility was programming the central UR5e, after selecting it to control the system via the PLC.
+            I handled the video editing as well.
           </p>
 
         </BackgroundGradient>
@@ -73,7 +73,7 @@ export default function projects() {
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
 
           <p className="text-sm text-neutral-400">
-            On a team of 3, we programmed the robot using MATLAB. We used the MATLAB computer vision toolbox, and some libraries
+            On a team of three, we programmed the robot using MATLAB. We used the MATLAB Computer Vision Toolbox, and some libraries
             for powering the servo motors. Beyond that, all trajectory planning was written from scratch using both forward and inverse
             kinematics. (The video was not intended for a presentation, just for my own personal reflection.)
           </p>
@@ -135,8 +135,8 @@ export default function projects() {
             <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
 
           <p className="text-sm text-neutral-400">
-            This is the final presentation video for our senior design project (MQP) at WPI. I narrated the video. It shows the vast
-            amount of CAD I was responsible for (SOLIDWORKS), as well as using MATLAB and creating schematics with KiCad.
+            This is the final presentation video for our eleven-student team's senior design project (MQP) at WPI. I narrated the video. It shows the vast
+            amount of CAD I was responsible for (SOLIDWORKS), as well as MATLAB work and schematic creation using KiCad.
           </p>
             </div>
 
