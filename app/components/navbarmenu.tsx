@@ -28,7 +28,7 @@ export function NavbarMenu() {
     },
     {
       name: "Products",
-      link: "/comingSoon",
+      link: "/products",
     },
     {
       name: "Machines",
