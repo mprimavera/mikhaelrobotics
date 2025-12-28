@@ -67,25 +67,27 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
           </span>
         </h2>
 
-{/* Bottom description + button */}
-{bottomDescription && (
-  <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-2">
-    <p className={`text-center px-4 text-sm md:text-base lg:text-lg ${descriptionColor || "text-slate-300"}`}>
-      <span className="inline-block rounded-md bg-black/30 backdrop-blur-md px-3 py-1">
-        {bottomDescription}
-      </span>
-    </p>
 
-    {buttonText && buttonAction && (
-      <button
-        onClick={buttonAction}
-        className="px-4 py-2 bg-black/50 border-2 text-blue-500 border-slate-700 rounded-2xl shadow transition hover:text-blue-300 cursor-pointer"
-      >
-        {buttonText}
-      </button>
-    )}
-  </div>
-)}
+        {/* Bottom description + button */}
+        {bottomDescription && (
+          <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-2 w-[90%] max-w-[70vmin]">
+            <p className={`text-center text-sm md:text-base lg:text-lg ${descriptionColor || "text-slate-300"}`}>
+              <span className="inline-block rounded-md bg-black/30 backdrop-blur-md px-3 py-1">
+                {bottomDescription}
+              </span>
+            </p>
+
+            {buttonText && buttonAction && (
+              <button
+                onClick={buttonAction}
+                className="px-4 py-2 bg-black/50 border-2 text-blue-500 border-slate-700 rounded-2xl shadow transition hover:text-blue-300 cursor-pointer"
+              >
+                {buttonText}
+              </button>
+            )}
+          </div>
+        )}
+
 
 
 
