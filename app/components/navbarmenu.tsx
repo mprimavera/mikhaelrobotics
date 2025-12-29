@@ -36,7 +36,7 @@ export function NavbarMenu() {
     },
     {
       name: "IP",
-      link: "/comingSoon",
+      link: "/ip",
     },
   ];
 

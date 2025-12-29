@@ -104,24 +104,24 @@ export default function Machines() {
 
   return (
 
-        <div className="">
-        <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-            <h2 className="text-lg md:text-4xl mb-4 text-white max-w-full">
-                Machines
-            </h2>
-            <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-              Over the years, I’ve learned that integrity is a primary key to success in business; therefore, I remain open about the
-              entrepreneurial experience, network, and resources I’ve built. While this approach may result in fewer opportunities, it
-              ensures alignment with a company seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
-            </p>
-            <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
-              These are the machines I currently have in my shop.
-            </p>
-        </div>
-        
-    <div className="relative overflow-hidden w-full h-full py-20">
-      <Carousel slides={slideData} />
-    </div>
+    <div className="">
+      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+          <h2 className="text-lg md:text-4xl mb-4 text-white max-w-full">
+              Machines
+          </h2>
+          <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
+            Over the years, I’ve learned that integrity is a primary key to success in business; therefore, I remain open about the
+            entrepreneurial experience, network, and resources I’ve built. While this approach may result in fewer opportunities, it
+            ensures alignment with a company seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
+          </p>
+          <p className="text-slate-500 lg:text-xl md:text-base max-w-3xl">
+            These are the machines I currently have in my shop.
+          </p>
+      </div>
+          
+      <div className="relative overflow-hidden w-full h-full py-20">
+        <Carousel slides={slideData} />
+      </div>
     </div>
   );
 }
