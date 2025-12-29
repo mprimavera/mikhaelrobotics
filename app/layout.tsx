@@ -32,11 +32,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
       {/* Under Development Banner */}
-      <StickyBanner>
+      {/* <StickyBanner>
         <p className="mx-0 max-w-[90%] text-pink-200 drop-shadow-md backdrop-blur-sm">
           This portfolio is currently being developed. Expect updates to be completed by 12/31/2025...{" "}
         </p>
-      </StickyBanner>
+      </StickyBanner> */}
 
         <NavbarMenu />
 

@@ -16,7 +16,9 @@ export default function Ip() {
 
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-6">
-            After our family business handled manufacturing and engineering for one company for nearly 20 years, the owners decided to move production to China. Our machine shop was left empty. Reality hit as hard and cold as the metals we manufacture: the bottom line drives modern business.
+            After our family business handled manufacturing and engineering for one company for nearly 20 years, the owners
+            decided to move production to China. Our machine shop was left empty. Reality hit as hard and cold as the metals
+            we manufactured: the bottom line drives modern business.
           </p>
 
           <p className="mb-6">
