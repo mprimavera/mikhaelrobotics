@@ -42,7 +42,7 @@ const MQPAccordion = [
 
 
 const RoboticsAccordion = [
-  { title: "RBE2001: Mechanical Applications", content: "Using SOLIDWORKS for design and FEA, gears were designed and implemented as a four-bar linkage. The object was to lift an aluminum part with a weak motor attached to a Romi robot, then move the aluminum piece to a preset desired position using line following and wall-sensing sensors." },
+  { title: "RBE2001: Mechanical Applications", content: "Using SOLIDWORKS for design and FEA, gears were designed and implemented into a four-bar linkage. The object was to lift an aluminum part with a weak motor attached to a Romi robot, then move the aluminum piece to a preset desired position using line following and wall-sensing sensors." },
   { title: "RBE2002: Sensing and Perception", content: "Used IMU, sonar, vision, and infrared sensors to mathematically blend feedback in software, enabling our Romi robots to navigate a field with ramps and communicate to open a door. PID code was written to enable constant speed and stopping on ramps at various angles" },
   { title: "RBE3001: Manipulation", content: "Using forward and inverse kinematics, vision sensors, and trajectory planning, code was written in MATLAB to detect, grasp, then sort balls according to their color." },
   { title: "RBE3002: Navigation", content: "Using ROS for Linux, a LIDAR sensor was used to first map out the maze the Romi robot was placed in. Then the robot was manually moved, and it oriented itself in the map it created using the LIDAR and Kalman filtering." },
