@@ -36,7 +36,6 @@ export default function Resume() {
         </div>
       ),
     },
-  
 
     {
       title: "12/2025",
@@ -45,7 +44,6 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Developed this React project as a portfolio
           </p>
-
           {/* Scrollable container */}
           {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
             <p 
@@ -60,7 +58,6 @@ export default function Resume() {
             </p>
           {/* </div> */}
           
-
           <div className="w-full">
             <div
               className="
@@ -189,7 +186,6 @@ export default function Resume() {
       ),
     },
 
-
     {
       title: "12/2025",
       content: (
@@ -197,7 +193,6 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Graduated with a B.S. in Robotics Engineering from WPI with a 3.92 GPA
           </p>
-
           {/* Scrollable container */}
           {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
             <p 
@@ -209,7 +204,6 @@ export default function Resume() {
       ),
     },
 
-
     {
       title: "2022-2023",
       content: (
@@ -217,7 +211,6 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Robotics: Field service engineering and system integration at Milara Inc.
           </p>
-
           {/* Scrollable container */}
           <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
             <p 
@@ -225,18 +218,15 @@ export default function Resume() {
                 I began working at Milara in their machine shop. Less than six months later I had been promoted to system integration on robotic
                 sorters in the semiconductor industry. Three months later, I was promoted to field service engineering as a member of the software team.
             </p>
-
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
                 After Milara offered to pay my tuition to earn my degree, I applied to WPI and got accepted with a substantial scholarship. I had to make
                 a major life decision, return to college full-time or stay at the job I had secured. It was one of the best decisions I've ever made.
             </p>
-            
           </div>
         </div>
       ),
     },
-
 
     {
       title: "2018-2022",
@@ -245,7 +235,6 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Founder: Owned and operated an e-commerce store
           </p>
-
           {/* Scrollable container */}
           <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
             <p 
@@ -253,7 +242,6 @@ export default function Resume() {
                 Building on previous experience in logistics management, I decided to manufacture products and sell them directly to customers.
                 I formed an LLC, dealing with everything from price modeling and product photography to web development and customer service.
             </p>
-
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
                 Although I did make sales, the income wasn't steady enough to pursue it further.
@@ -272,7 +260,6 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-300  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Designed and manufactured custom products in CNC machines
           </p>
-
           {/* Scrollable container */}
           <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
             <p 
@@ -280,7 +267,6 @@ export default function Resume() {
                 Utilizing my skills in manufacturing, and combining those with creativity and an intuitive understanding of market demand, I developed
                 three simple products, all of which sold.
             </p>
-
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
                 It was an amazing experience to come up with an idea in my mind, then a few months after meticulous planning for market delivery and
@@ -292,7 +278,6 @@ export default function Resume() {
         </div>
       ),
     },
-
 
     {
       title: "11/2017",
@@ -356,7 +341,6 @@ export default function Resume() {
       ),
     },
 
-
     {
     title: "1998-2008",
     content: (
@@ -374,25 +358,11 @@ export default function Resume() {
     ),
   },
 
-
   ];
   return (
-
     <div className="relative w-full overflow-clip">
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-12 text-white">
-          My Résumé
-        </h2>
-        <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
-          <p className="mb-6">
-            As I complete my education, I am seeking a role where I can contribute to innovative robotics projects, refine my
-            technical expertise, and apply practical manufacturing insight to intelligent system design.
-          </p>
-        </div>
-      </div>
       <Timeline data={data} />
                 <div className="h-40 sm:h-60 md:h-80 lg:h-200 xl:h-[28rem]" />
-
     </div>
     
   );
