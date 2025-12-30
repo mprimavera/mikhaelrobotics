@@ -10,16 +10,16 @@ export default function Machines() {
       title: "Mazak Quick Turn Nexus 100-II M",
       src: "/mazak1.jpg", // <-- replace this with your actual image
       bottomDescription: "This Mazak has live tooling, an automatic bar feeder for three-foot lengths, a parts catcher, and conveyor for automatic chip removal.",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     {
       title: "OmniTurn GT-75",
       src: "/omniTurn1.jpg", // <-- replace this with your actual image
       bottomDescription: "This OmniTurn lathe has gang tooling, an automatic bar feeder for two-foot lengths, and a parts catcher.",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     /* Mills */
@@ -27,24 +27,24 @@ export default function Machines() {
       title: "Hurco VM10i Mill",
       src: "/hurcoVM10.jpg", // <-- replace this with your actual image
       bottomDescription: "This is a vertical mill with a rotary axis option (1 of 3).",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     {
       title: "Hurco VM5i Mill",
       src: "/hurcoVM5i1.jpg", // <-- replace this with your actual image
       bottomDescription: "This is a vertical mill (2 of 3).",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
         {
       title: "Hurco VM5i Mill",
       src: "/hurcoVM5i2.jpg", // <-- replace this with your actual image
       bottomDescription: "This is a vertical mill (3 of 3).",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     /* Lasers */
@@ -52,16 +52,16 @@ export default function Machines() {
       title: "Epilog Mini Laser",
       src: "/laser1.jpg", // <-- replace this with your actual image
       bottomDescription: "This is an Epilog Mini, 50-watt CO₂ laser with a rotary add-on (1 of 2).",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     {
       title: "Epilog Mini Laser",
       src: "/laser2.jpg", // <-- replace this with your actual image
       bottomDescription: "This is an Epilog Mini, 50-watt CO₂ laser with a rotary add-on (2 of 2).",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     /* Welder */
@@ -69,8 +69,8 @@ export default function Machines() {
       title: "Miller SyncroWave 250 DX",
       src: "/welder1.jpg", // <-- replace this with your actual image
       bottomDescription: "This is a TIG welder for metals.",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     /* Brake */
@@ -78,8 +78,8 @@ export default function Machines() {
       title: "Atek Bantam Press Brake",
       src: "/brake.jpg", // <-- replace this with your actual image
       bottomDescription: "This is a press brake for bending metals.",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     /* Tumblers */
@@ -87,16 +87,16 @@ export default function Machines() {
       title: "Abrasive Tumbler",
       src: "/tumbler1.jpg", // <-- replace this with your actual image
       bottomDescription: "This is a large tumbler for deburring metals (1 of 2).",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
     {
       title: "Abrasive Tumbler",
       src: "/tumbler2.jpg", // <-- replace this with your actual image
       bottomDescription: "This is a small tumbler for deburring metals (2 of 2).",
-      titleColor: "text-blue-300/85",
-      descriptionColor: "text-blue-300/85"
+      titleColor: "text-slate-400/85",
+      descriptionColor: "text-slate-400/85"
     },
 
   ];

@@ -22,10 +22,10 @@ export function NavbarMenu() {
       name: "Résumé",
       link: "/resume",
     },
-    {
-      name: "Robotics Engineering",
-      link: "/robotics_engineering",
-    },
+    // {
+    //   name: "Robotics Engineering",
+    //   link: "/robotics_engineering",
+    // },
     {
       name: "Projects",
       link: "/projects",

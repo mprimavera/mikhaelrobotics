@@ -1,6 +1,7 @@
 "use client";
 import { IconArrowNarrowRight } from "@tabler/icons-react";
 import { useState, useRef, useId } from "react";
+import { NoiseBackground } from "./noise-background";
 
 interface SlideData {
   title: string;
@@ -8,8 +9,6 @@ interface SlideData {
   bottomDescription?: string;
   buttonText?: string;       // Optional button text
   buttonAction?: () => void; // Optional button action
-  titleColor?: string;        // Optional custom title color
-  descriptionColor?: string;  // Optional custom description color
 }
 
 interface SlideProps {
@@ -21,7 +20,7 @@ interface SlideProps {
 
 const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
   const slideRef = useRef<HTMLLIElement>(null);
-  const { src, title, bottomDescription, buttonText, buttonAction, titleColor, descriptionColor } = slide;
+  const { src, title, bottomDescription, buttonText, buttonAction } = slide;
 
   const imageLoaded = (event: React.SyntheticEvent<HTMLImageElement>) => {
     event.currentTarget.style.opacity = "1";
@@ -40,6 +39,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
           transformOrigin: "bottom",
         }}
       >
+
         <div className="absolute top-0 left-0 w-full h-full bg-black/0 rounded-[1%] overflow-hidden">
           {src && (
             <img
@@ -58,10 +58,11 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
         {/* Title at top */}
         <h2
           className={`absolute left-1/2 -translate-x-1/2 font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl w-[90%] max-w-[70vmin]
-            ${titleColor || "text-white"} 
+            text-slate-400/85 
             top-2 sm:top-2 md:top-8 lg:top-12`}
         >
-          <span className="inline-block rounded-md bg-black/50 backdrop-blur-md px-4 py-1">
+
+          <span className="inline-block rounded-md bg-black/70 backdrop-blur-md px-4 py-1 border-1">
             {title}
           </span>
         </h2>
@@ -73,9 +74,10 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
               bottom-2 sm:bottom-2 md:bottom-8 lg:bottom-12`} // same as top title
           >
             <p
-              className={`text-center text-sm md:text-base lg:text-lg ${descriptionColor || "text-slate-300"}`}
+              className={`text-center text-sm md:text-base lg:text-lg text-slate-400/85`}
             >
-              <span className="inline-block rounded-md bg-black/50 backdrop-blur-md px-3 py-1">
+              <span className="inline-block rounded-md bg-black/70 backdrop-blur-md px-3 py-1 border-1">
+
                 {bottomDescription}
               </span>
             </p>
@@ -83,7 +85,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
             {buttonText && buttonAction && (
               <button
                 onClick={buttonAction}
-                className="px-4 py-2 bg-black/50 border-2 text-blue-500 border-slate-700 rounded-2xl shadow transition hover:text-blue-300 cursor-pointer"
+                className="px-4 py-2 bg-black/50 border-2 text-blue-500 border-slate-700 rounded-2xl shadow transition hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
               >
                 {buttonText}
               </button>
