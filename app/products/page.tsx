@@ -14,7 +14,7 @@ export default function Products() {
       src: "/pi_ad.jpg", // <-- replace this with your actual image
       buttonText: "Watch Video",
       buttonAction: () => window.open("https://youtu.be/SDK4FM9hwQk?si=jGM9AAmJBe8BWb_u", "_blank"),
-      bottomDescription: "This was my first software-driven product. I developed a custom Python script to generate QR codes optimized for smartphone scanning.",
+      bottomDescription: "This was my first software-driven product. I developed a custom Python script to generate QR codes optimized for smartphone cameras.",
       titleColor: "text-slate-400",
       descriptionColor: "text-slate-500"
     },
@@ -22,7 +22,8 @@ export default function Products() {
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_moreColors.jpg",
-      bottomDescription: "These are more color options. The vCard information embedded in the QR code is outdated (if you scan this image with a phone now).",
+      bottomDescription: `These are more color options. The vCard information embedded in the QR code is outdated (if scanned with a phone
+      today).`,
       titleColor: "text-slate-400",
       descriptionColor: "text-slate-500"
       },
@@ -30,7 +31,8 @@ export default function Products() {
     {
       title: "Π: Digital Contact Cards",
       src: "/pi_scanHere.jpg",
-      bottomDescription: "This image was created to show customers how the contact card works. The vCard information embedded in the QR code is outdated (if you scan this image with a phone now).",
+      bottomDescription: `This image was created to show customers how the contact card works. The vCard information embedded in the
+      QR code is outdated (if scanned with a phone today).`,
       titleColor: "text-slate-400",
       descriptionColor: "text-slate-500"
     },
