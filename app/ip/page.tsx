@@ -23,7 +23,7 @@ export default function Ip() {
 
           <p className="mb-6">
             As time progressed, I ended up hiring an IP attorney to secure a copyright for part one of a trilogy I wrote. Later, I
-            learned how to file for trademarks. I applied for “AlphaOmega” in the computer hardware industry but was denied because
+            learned how to file for trademarks. I applied for "AlphaOmega" in the computer hardware industry but was denied because
             another company, Alpha Omega Solutions, held a trademark in a similar industry. I hired an attorney to dispute the United
             States Patent and Trademark Office’s decision, and ultimately did not win.
           </p>

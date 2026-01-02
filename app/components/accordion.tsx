@@ -71,7 +71,7 @@ function AccordionRow({
         className="flex w-full justify-between items-center px-6 py-4 text-base sm:text-lg font-medium text-blue-300/75
           transition-all duration-300 hover:-translate-y-0.5"
       >
-        <span>{item.title}</span>
+        <span className="text-left w-full">{item.title}</span>
 
         {/* Circle with + / - */}
         <div className="flex items-center justify-center h-6 w-6 rounded-full border border-blue-300/50">

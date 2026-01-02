@@ -14,7 +14,7 @@ const MQPAccordion = [
           <li>Designed and implemented mechanical bed leveling</li>
           <li>Set up GitHub for remote sharing of SOLIDWORKS files among our team</li>
           <li>Performed calculations to ensure that the bearings along the linear rails could handle the torque from the spindle</li>
-          <li>Discovered that the software 'glitches' were actually the result of EMF from the VFD powering the spindle</li>
+          <li>Discovered that the software "glitches" were actually the result of EMF from the VFD powering the spindle</li>
           <li>Developed a laser probe and safety system for the automatic tool changer</li>
           <li>Calibrated axes motors and drivers</li>
           <li>Created new fixturing for the work area</li>
@@ -72,7 +72,7 @@ const RoboticsAccordion = [
     written to enable constant speed and stopping on ramps at various angles` },
   { title: "RBE3001: Manipulation", content: `Using forward and inverse kinematics, vision sensors, and trajectory planning, our team of
     three wrote MATLAB code to detect, grasp, and sort balls according to their color.` },
-  { title: "RBE3002: Navigation", content: `Using ROS for Linux, we mapped the maze with a LIDAR sensor. The robot was then manually
+  { title: "RBE3002: Navigation", content: `Using ROS on Linux, we mapped the maze with a LIDAR sensor. The robot was then manually
     moved and oriented itself on the map using the LIDAR and Kalman filtering.` },
   { title: "Industrial Robotics", content: `Our four-person team programmed an Arduino PLC, which controlled a system of industrial
     robots: a UR5 Universal Robot, an M-1iA Fanuc delta robot, two conveyor belts with laser break-beam sensors.` },
@@ -82,9 +82,6 @@ const CSAccordion = [
   { title: "Microcontroller Programming",
     content: (
       <div className="space-y-4">
-        <p>
-          
-        </p>
         <ul className="list-disc pl-5 space-y-1">
           <li>MSP430 programming in Assembly and C</li>
           <li>Raspberry Pi programming in C and Python</li>
@@ -128,14 +125,26 @@ const CSAccordion = [
 
 const electricalAccordion = [
   { title: "Embedded Systems", content: (`This course required using KiCad to come up with schematics for all circuits created.
-    All calculations needed to be made to ensure that the Raspberry Pi microcontroller would be able to handle all voltages and
-    currents that resulted from the designs I made. The calculations were done with MATLAB, and electrical simulations were done
+    The calculations to ensure proper design of voltages and currents were done with MATLAB, and electrical simulations were done
     with MATLAB Simscape Electrical.`), 
     defaultOpen: true,},
+  { title: "Communications Protocols", content: (
+    <div className="space-y-4">
+      <p>
+        Communications protocols were used in numerous robotics courses and embedded systems. Covered protocols were:
+      </p>
+      <ul className="list-disc pl-5 space-y-1">
+        <li>UART</li>
+        <li>I2C</li>
+        <li>SPI</li>
+      </ul>
+    </div>
+  ),
+  },
   { title: "Circuit Analysis", content: `This course primarily covered DC circuits, with some exposure to AC circuits. MATLAB was used
     for solving systems of equations that modeled the circuits. The node method was used heavily in this course.` 
   },
-  { title: "Electromagnetism Physics", content: `This calculus-based course covered the physics of electromagnetism. The lab associated
+  { title: "Electromagnetism", content: `This calculus-based course covered the physics of electromagnetism. The lab associated
     with this course required the building and analysis of DC circuits.` 
   },
 
@@ -169,7 +178,7 @@ const toolsAccordion = [
             The engineering software I used included:
         </p>
         <ul className="list-disc pl-5 space-y-1">
-          <li>Used SOLIDWORKS CAD, Finite Element Analysis, and CAM</li>
+          <li>SOLIDWORKS CAD, Finite Element Analysis, and CAM</li>
           <li>Fusion360 CAD and CAM</li>
           <li>MATLAB for mathematical modeling, vision sensors, as well as mechanical and electrical system simulations</li>
           <li>Linux, GitHub, VSCode, WebStorm, and Arduino</li>
