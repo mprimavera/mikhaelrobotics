@@ -108,7 +108,7 @@ function AccordionRow({
       >
         <div
           ref={contentRef}
-          className={`px-6 pb-4 text-slate-500 transition-opacity duration-500 bg-black/70 rounded-lg
+          className={`px-6 text-slate-500 transition-opacity duration-500 bg-black/70 rounded-lg
             ${isOpen ? "opacity-100" : "opacity-0"}`}
         >
           {item.content}
