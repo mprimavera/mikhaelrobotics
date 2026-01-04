@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/card"
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { GridItem } from "../components/grid_item";
-import { Copyright, Github, Linkedin,  } from "lucide-react";
+import { Copyright, Github, Linkedin  } from "lucide-react";
 import { GridItem2 } from "../components/grid_item_2";
 import { IconBrandNextjs, IconBrandVscode } from "@tabler/icons-react";
 import Image from "next/image";
@@ -57,8 +57,8 @@ export default function Resume() {
           {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-                I custom built this portfolio completely from scratch (no templates or tutorials). I used VS Code as an IDE, GitHub, Next.js with React
-                route handling, Tailwind CSS, Aceternity UI, Shadcn UI, Lucide, and ChatGPT.
+                I custom-built this portfolio completely from scratch (no templates or tutorials). I used VS Code as my IDE, GitHub,
+                Next.js with React-based routing, Tailwind CSS, Aceternity UI, Shadcn UI, Lucide, and ChatGPT.
             </p>
 
             <p 
@@ -206,7 +206,7 @@ export default function Resume() {
           {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-                I will be receiving my diploma in early January, 2026. I officially finished my courses on 12/12/2025.
+                I will be receiving my diploma in early January 2026. I officially finished my courses on 12/12/2025.
             </p>
           {/* </div> */}
         </div>
@@ -229,8 +229,8 @@ export default function Resume() {
             </p>
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-                After Milara offered to pay my tuition to earn my degree, I applied to WPI and got accepted with a substantial scholarship. I had to make
-                a major life decision, return to college full-time or stay at the job I had secured. It was one of the best decisions I've ever made.
+                After Milara offered to pay my tuition to earn my degree, I applied to WPI and was accepted with a substantial scholarship. I had to make
+                a major life decision: return to college full-time or stay at the job I had secured. Now, I'm officially a robotics engineer.
             </p>
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function Resume() {
             </p>
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-                Although I did make sales, the income wasn't steady enough to pursue it further.
+                Ultimately, I strategically pivoted my focus toward strengthening my technical foundation.
             </p>
 
           </div>
@@ -279,7 +279,7 @@ export default function Resume() {
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
                 It was an amazing experience to come up with an idea in my mind, then a few months after meticulous planning for market delivery and
-                profitability, I was holding in my hand a tangible version of a thumb screw design which had previously existed only within my mind.
+                profitability, I was holding in my hand a tangible version of a thumbscrew design which had previously existed only within my mind.
             </p>
 
 
@@ -305,7 +305,6 @@ export default function Resume() {
               a few more books, then watching every microeconomic, macroeconomic, finance, capital markets, and accounting video on Khan Academy.
             </p>
             </div>
-
         </div>
       ),
     },
@@ -335,7 +334,7 @@ export default function Resume() {
       content: (
         <div>
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Logistics Manager at MetalProUSA Inc.
+            Logistics Manager at MetalPro USA Inc.
           </p>
 
           {/* Scrollable container */}
@@ -355,7 +354,7 @@ export default function Resume() {
     content: (
       <div>
         <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-          CNC Machinist at MetalProUSA Inc.
+          CNC Machinist at MetalPro USA Inc.
         </p>
         <p 
           className="mb-2 font-normal text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">

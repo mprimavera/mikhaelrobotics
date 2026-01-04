@@ -185,6 +185,7 @@ const toolsAccordion = [
           <li>Oscilloscope, multimeter, and voltage supplies</li>
           <li>Basic soldering</li>
           <li>Strain gauges, tachometers, temperature sensors, electronic torque wrenches, and dial indicators</li>
+          <li>Affinity Designer and Affinity Photo (graphic design)</li>
         </ul>
       </div>
     ),
@@ -252,7 +253,6 @@ const businessAccordion = [
       </div>
     ),
   },
-
 ]
 
 export default function Robotics_engineering() {
