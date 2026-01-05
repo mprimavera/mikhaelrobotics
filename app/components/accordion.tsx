@@ -19,7 +19,7 @@ export function Accordion({ items }: AccordionProps) {
   })
 
   return (
-    <div className="mx-auto max-w-lg">
+    <div className="mx-auto w-full max-w-[89%] sm:max-w-sm md:max-w-lg">
       <div className="border border-slate-400/50 rounded-lg overflow-hidden">
         {items.map((item, index) => (
           <AccordionRow
@@ -62,13 +62,13 @@ function AccordionRow({
 
   return (
     <div
-      className={`backdrop-blur-md px-3 py-1
+      className={`backdrop-blur-md px-0 py-0
         ${isFirst ? "rounded-t-lg" : ""} 
         ${isLast ? "rounded-b-lg" : ""}`}
     >
       <button
         onClick={onToggle}
-        className="flex w-full justify-between items-center px-6 py-4 text-base sm:text-lg font-medium text-blue-300/75
+        className="flex w-full justify-between items-center px-6 py-3 text-sm sm:text-sm md:text-md lg:text-lg font-medium text-blue-300/75
           transition-all duration-300 hover:-translate-y-0.5"
       >
         <span className="text-left w-full">{item.title}</span>

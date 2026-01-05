@@ -42,6 +42,8 @@ export default function Machines() {
         />
       ),
     },
+
+    /* Mills */
     {
       title: "Hurco VM10i Mill",
       src: "/hurcoVM10.jpg",
@@ -90,6 +92,8 @@ export default function Machines() {
         />
       ),
     },
+
+    /* Lasers */
     {
       title: "Epilog Mini Laser",
       src: "/laser1.jpg",
@@ -122,6 +126,8 @@ export default function Machines() {
         />
       ),
     },
+  
+    /* Welding */
     {
       title: "Miller SyncroWave 250 DX",
       src: "/welder1.jpg",
@@ -138,6 +144,8 @@ export default function Machines() {
         />
       ),
     },
+
+    /* Forming */
     {
       title: "Atek Bantam Press Brake",
       src: "/brake.jpg",
@@ -154,6 +162,8 @@ export default function Machines() {
         />
       ),
     },
+
+    /* Deburring */
     {
       title: "Abrasive Tumbler",
       src: "/tumbler1.jpg",
