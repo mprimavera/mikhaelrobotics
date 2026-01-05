@@ -42,7 +42,6 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
         }}
       >
         <div className="flex flex-col w-full h-full">
-          {/* Accordion above image */}
           {accordion && <div className="mb-2">{accordion}</div>}
 
           <div className="relative flex-1 w-full rounded-[1%] overflow-hidden">
@@ -93,31 +92,6 @@ export default function Carousel2({ slides }: CarouselProps) {
   const [current, setCurrent] = useState(0);
   const id = useId();
 
-  // Swipe handling
-  const touchStartX = useRef(0);
-  const touchEndX = useRef(0);
-
-  const handleTouchStart = (e: React.TouchEvent) => {
-    touchStartX.current = e.touches[0].clientX;
-  };
-
-  const handleTouchMove = (e: React.TouchEvent) => {
-    touchEndX.current = e.touches[0].clientX;
-  };
-
-  const handleTouchEnd = () => {
-    const deltaX = touchStartX.current - touchEndX.current;
-    if (Math.abs(deltaX) < 50) return; // swipe threshold
-
-    if (deltaX > 0) {
-      // swipe left → next slide
-      handleNextClick();
-    } else {
-      // swipe right → previous slide
-      handlePreviousClick();
-    }
-  };
-
   const handlePreviousClick = () => {
     setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
   };
@@ -134,9 +108,6 @@ export default function Carousel2({ slides }: CarouselProps) {
     <div
       className="relative w-[70vmin] h-[70vmin] mx-auto overflow-hidden"
       aria-labelledby={`carousel-heading-${id}`}
-      onTouchStart={handleTouchStart}
-      onTouchMove={handleTouchMove}
-      onTouchEnd={handleTouchEnd}
     >
       {/* Slides */}
       <ul
@@ -170,7 +141,7 @@ export default function Carousel2({ slides }: CarouselProps) {
         />
       </div>
 
-      {/* Slide indicator pills (active one is oval) */}
+      {/* Slide indicator pills */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
         {slides.map((_, index) => (
           <button
@@ -178,8 +149,8 @@ export default function Carousel2({ slides }: CarouselProps) {
             onClick={() => setCurrent(index)}
             className={`transition-all duration-300 ${
               current === index
-                ? "bg-blue-300/75 w-8 h-3 rounded-full" // active pill
-                : "bg-blue-400 w-3 h-3 rounded-full hover:-translate-y-0.5 transition-all duration-300" // inactive circle
+                ? "bg-blue-300/75 w-8 h-3 rounded-full"
+                : "bg-blue-400 w-3 h-3 rounded-full hover:-translate-y-0.5 transition-all duration-300"
             }`}
             title={`Go to slide ${index + 1}`}
           />
