@@ -42,10 +42,10 @@ export function NavbarMenu() {
       name: "IP",
       link: "/ip",
     },
-    // {
-    //   name: "Coming Soon",
-    //   link: "/comingSoon",
-    // },
+    {
+      name: "Coming Soon",
+      link: "/comingSoon",
+    },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
