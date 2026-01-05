@@ -68,7 +68,7 @@ function AccordionRow({
     >
       <button
         onClick={onToggle}
-        className="flex w-full justify-between items-center px-6 py-3 text-sm sm:text-sm md:text-md lg:text-lg font-medium text-blue-300/75
+        className="flex w-full justify-between items-center px-3 py-3 text-sm sm:text-sm md:text-md lg:text-lg font-medium text-blue-300/75
           transition-all duration-300 hover:-translate-y-0.5"
       >
         <span className="text-left w-full">{item.title}</span>
@@ -108,7 +108,7 @@ function AccordionRow({
       >
         <div
           ref={contentRef}
-          className={`px-6 text-slate-500 transition-opacity duration-500 bg-black/70 rounded-lg
+          className={`px-6 text-slate-500 transition-opacity duration-500 bg-black/70 rounded-lg pt-1 pb-1
             ${isOpen ? "opacity-100" : "opacity-0"}`}
         >
           {item.content}
