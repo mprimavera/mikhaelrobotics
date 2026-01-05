@@ -92,7 +92,6 @@ export default function Carousel2({ slides }: CarouselProps) {
   const [current, setCurrent] = useState(0);
   const id = useId();
 
-  // Functions to navigate slides
   const handlePreviousClick = () => {
     setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
   };
@@ -107,11 +106,11 @@ export default function Carousel2({ slides }: CarouselProps) {
 
   return (
     <div
-      className="relative w-[70vmin] h-[70vmin] mx-auto"
+      className="relative w-[70vmin] h-[70vmin] mx-auto mb-10"
       aria-labelledby={`carousel-heading-${id}`}
     >
-      {/* Clip slides to show only one at a time */}
-      <div className="absolute inset-0 overflow-hidden">
+      {/* Slides */}
+      <div className="absolute inset-0 overflow-hidden z-0">
         <ul
           className="absolute flex mx-[-4vmin] transition-transform duration-1000 ease-in-out"
           style={{
@@ -130,18 +129,37 @@ export default function Carousel2({ slides }: CarouselProps) {
         </ul>
       </div>
 
-      {/* Previous / Next arrows */}
-      <div className="absolute flex justify-center w-full top-[calc(100%+1rem)]">
-        <CarouselControl
-          type="previous"
-          title="Go to previous slide"
-          handleClick={handlePreviousClick}
-        />
-        <CarouselControl
-          type="next"
-          title="Go to next slide"
-          handleClick={handleNextClick}
-        />
+      {/* Pills + arrows container below the carousel */}
+      <div className="absolute w-full flex flex-col items-center top-[calc(100%+1rem)] gap-2 z-20">
+        {/* Pills above arrows */}
+        <div className="flex gap-2 pt-1 pb-2">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrent(index)}
+              className={`transition-all duration-300 ${
+                current === index
+                  ? "bg-blue-300/75 w-6 h-2 sm:w-8 sm:h-3 rounded-full"
+                  : "bg-blue-400/50 w-2 h-2 sm:w-3 sm:h-3 rounded-full hover:-translate-y-0.5 transition-all duration-300"
+              }`}
+              title={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
+
+        {/* Arrows */}
+        <div className="flex justify-center gap-4">
+          <CarouselControl
+            type="previous"
+            title="Go to previous slide"
+            handleClick={handlePreviousClick}
+          />
+          <CarouselControl
+            type="next"
+            title="Go to next slide"
+            handleClick={handleNextClick}
+          />
+        </div>
       </div>
     </div>
   );
