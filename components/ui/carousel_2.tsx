@@ -132,7 +132,7 @@ export default function Carousel2({ slides }: CarouselProps) {
 
   return (
     <div
-      className="relative w-[70vmin] h-[70vmin] mx-auto"
+      className="relative w-[70vmin] h-[70vmin] mx-auto overflow-hidden"
       aria-labelledby={`carousel-heading-${id}`}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
