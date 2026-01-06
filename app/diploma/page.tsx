@@ -17,13 +17,11 @@ export default function Diploma() {
 
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-6">
-            Here is an official, digital copy of the diploma I received from WPI
-            for Robotics Engineering.
+            This page provides an official digital copy of my Robotics Engineering diploma from WPI.
           </p>
 
           <p>
-            I graduated with High Distinction, which is the highest honors at
-            WPI; I've provided a link for reference, below my diploma.
+            I graduated with High Distinction, the highest academic honor awarded by WPI. A reference link is provided below the diploma.
           </p>
         </div>
       </div>
