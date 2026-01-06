@@ -10,7 +10,7 @@ export default function Diploma() {
 
   return (
     <div className="bg-black/0">
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 mb-6">
         <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
           Diploma
         </h2>

@@ -450,7 +450,7 @@ export default function Projects() {
         </div>
 
         {/* Additive manufacturing prototyping */}
-        <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+        <div className="w-full max-w-[400px] min-w-[400px] mx-auto mb-8">
           <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
             <div className="w-full aspect-video mb-4">
               <iframe
