@@ -34,10 +34,10 @@ export function NavbarMenu() {
       name: "Products",
       link: "/products",
     },
-    {
-      name: "Machines",
-      link: "/machines",
-    },
+    // {
+    //   name: "Machines",
+    //   link: "/machines",
+    // },
     {
       name: "IP",
       link: "/ip",
@@ -70,7 +70,7 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium font-semibold text-blue-400">MikhaelRobotics™</span>
+          <span className="font-medium font-semibold text-blue-400">Michael Primavera</span>
         </a>
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
@@ -102,7 +102,7 @@ export function NavbarMenu() {
             width={50}
             height={50}
           /> */}
-          <span className="font-medium font-semibold text-blue-400">MikhaelRobotics™</span>
+          <span className="font-medium font-semibold text-blue-400">Michael Primavera</span>
         </a>
             <MobileNavToggle
               isOpen={isMobileMenuOpen}

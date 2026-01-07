@@ -89,7 +89,7 @@ export default function PDFModal({
             rel="noopener noreferrer"
             className="text-sm text-blue-400 hover:-translate-y-0.5 transition-all duration-300 text-center sm:text-left"
           >
-            Open in new tab
+            Open in new tab (required on mobile to view full verified credential)
           </a>
         </div>
       </div>
