@@ -211,7 +211,7 @@ export default function Machines() {
             companies seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
           </p>
           <p className="">
-            That being said, here are the machines currently in my shop.
+            That being said, here are the machines currently in our shop.
           </p>
         </div>
       </div>       
