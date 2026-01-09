@@ -3,8 +3,8 @@ import { WavyBackground } from "@/components/ui/wavy-background";
 import { Accordion } from "./components/accordion";
 
 const learnMore = [
-  { title: "Learn More", content: `As I complete my education, I am seeking a role where I can contribute to innovative robotics
-    projects, refine my technical expertise, and apply practical manufacturing insight to intelligent system design.` },
+  { title: "Learn More", content: `As I complete my education, I am seeking a role where I can contribute to innovative projects
+    and refine my technical expertise.` },
 ]
 
 
