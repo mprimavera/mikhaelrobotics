@@ -39,7 +39,7 @@ export default function Projects() {
         </div>
 
         {/* ===== Robotics ===== */}
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="Robotics">
             {/* Industrial Robotics */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
@@ -347,7 +347,7 @@ export default function Projects() {
                   <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                     <p className="text-sm text-slate-500">
                       Using Linux and the Pico SDK, all code was written from scratch, including the display code and encoder-based
-                      proportional-derivative control. Integral control was applied in other projects.
+                      proportional-derivative control. Integral control was implemented in other projects.
                     </p>
                   </div>
                 </BackgroundGradient>
@@ -396,7 +396,7 @@ export default function Projects() {
                   <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                     <p className="text-sm text-slate-500">
                       I created a voltmeter using a Raspberry Pi Pico 2 W microcontroller, potentiometer, and 7-segment 4-digit LED display.
-                      Apart from the SDK library, all code was written from scratch. The display runs on a timer interrupt, and output is
+                      Apart from the SDK library, all code was written from scratch. The display ran on a timer interrupt, and output was
                       based on the ADC reading of the potentiometer's wiper pin.
                     </p>
                   </div>
@@ -430,7 +430,7 @@ export default function Projects() {
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500">
                     After the Bitcoin price spike in late 2017, I built an Ethereum mining rig. At the time, rigs sold for
-                    $10,000–$20,000 online, but I built mine for ~$1,200, realizing significant potential profit.
+                    $10,000–$20,000 online, but I built mine for ~$1,200. This resulted in a significant potential profit.
                   </p>
                   <p className="text-sm text-slate-500">
                     This marked the beginning of AlphaOmega LLC.
@@ -485,8 +485,8 @@ export default function Projects() {
                     I created this video to share the greatest takeaway I had from learning math and physics.
                   </p>
                   <p className="text-sm text-slate-500">
-                    I made a handful of other tutorials, as well. Those videos received over 185,000 views, but it wasn't significant enough
-                    to continue dedicating the required time—which I decided was better spent furthering my own knowledge base.
+                    "I made a handful of other tutorials as well. Those videos received over 185,000 views, but it wasn’t enough
+                    to justify dedicating the time, which I decided was better spent furthering my own knowledge.
                   </p>
                 </div>
               </BackgroundGradient>
