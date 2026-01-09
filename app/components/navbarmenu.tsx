@@ -24,7 +24,7 @@ export function NavbarMenu() {
     },
     {
       name: "Education",
-      link: "/robotics_engineering",
+      link: "/education",
     },
     {
       name: "Projects",

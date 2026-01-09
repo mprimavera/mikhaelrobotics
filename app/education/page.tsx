@@ -284,7 +284,7 @@ const businessAccordion = [
   },
 ]
 
-export default function Robotics_engineering() {
+export default function Education() {
   return (
 
     <div className="">
@@ -309,42 +309,42 @@ export default function Robotics_engineering() {
         {/* Accordions */}
         <div className="space-y-12">
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Major Qualifying Project
           </p>
           <Accordion items={MQPAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Robotics Engineering
           </p>
           <Accordion items={RoboticsAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Computer Science
           </p>
           <Accordion items={CSAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Electrical Engineering
           </p>
           <Accordion items={electricalAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Mechanical Engineering
           </p>
           <Accordion items={mechanicalAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Engineering Software and Tools
           </p>
           <Accordion items={toolsAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Mathematics
           </p>
           <Accordion items={mathematicsAccordion} />
 
-          <p className="mb-2 text-center sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Business
           </p>
           <Accordion items={businessAccordion} />
