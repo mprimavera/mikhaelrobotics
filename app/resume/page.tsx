@@ -25,7 +25,7 @@ export default function Resume() {
       content: (
         <div>
           <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Applying for M.S. in Artificial Intelligence (online), Johns Hopkins University, starting May 2026
+            Applied for M.S. in Artificial Intelligence (online), Johns Hopkins University, starting May 2026
           </p>
 
           {/* Centered button */}
@@ -206,7 +206,7 @@ export default function Resume() {
           {/* <div className="mb-8 max-h-40 sm:max-h-40 overflow-y-auto pr-2"> */}
             <p 
               className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-                I will be receiving my diploma in early January 2026. I officially finished my courses on 12/12/2025.
+                I graduated December 30, 2025, with High Distinction honors—the highest academic honor awarded by WPI.
             </p>
           {/* </div> */}
         </div>

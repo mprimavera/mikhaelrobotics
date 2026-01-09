@@ -40,11 +40,15 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
     <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
       <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
-        My Résumé
+        Résumé
       </h2>
       <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
         <p className="mb-6">
-          I've included this page to provide more depth than the typical résumé submitted with a job application.
+          Robotics Engineer with hands-on experience in embedded systems, automation, and full-stack development.
+          Skilled in designing, programming, and optimizing software for real-world applications across robotics, manufacturing,
+          and algorithmic trading domains. Proficient in C, C++, Python, Java, MATLAB, web development, and Linux-based development,
+          with expertise in debugging, software architecture, and integrating software with hardware systems. Proven ability to collaborate
+          across multidisciplinary teams to deliver robust, scalable, and maintainable solutions.
         </p>
       </div>
     </div>
