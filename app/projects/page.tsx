@@ -60,7 +60,7 @@ export default function Projects() {
                   Automation line featuring a Fanuc M-1iA and UR5e, integrated with conveyors and sensors.
                 </p>
                 <p className="text-sm text-slate-500">
-                  My primary responsibility was programming the central UR5e, after selecting it to control the system via the PLC. I also handled the video editing.
+                  My primary responsibility was programming the central UR5e after selecting it to control the system via the PLC. I also handled the video editing.
                 </p>
               </BackgroundGradient>
             </div>
@@ -83,8 +83,9 @@ export default function Projects() {
                 </p>
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500">
-                    On a team of three, we programmed the robot using the MATLAB Computer Vision Toolbox and libraries for powering the servo
-                    motors. All trajectory planning was written from scratch using both forward and inverse kinematics.
+                    As part of a three-person team, we programmed the robot using the MATLAB Computer Vision Toolbox and
+                    libraries to control the servo motors. All trajectory planning was written from scratch using both forward
+                    and inverse kinematics.
                   </p>
                 </div>
               </BackgroundGradient>
@@ -114,7 +115,7 @@ export default function Projects() {
                 </p>
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500">
-                    This is the final presentation video for our eleven-student Major Qualifying Project (MQP) at WPI. I
+                    This is the final presentation video for our eleven-member Major Qualifying Project (MQP) team at WPI. I
                     narrated the video and demonstrated my CAD (SOLIDWORKS), MATLAB, and KiCad schematic work.
                   </p>
                 </div>
@@ -191,8 +192,9 @@ export default function Projects() {
                 </p>
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500">
-                    This video shows the mechanical bed leveling I engineered, successfully integrated into a mini CNC mill. The bed could be
-                    leveled within ±127 µm across the length and width of the work plate that held the vice for machining parts.
+                    This video shows the mechanical bed leveling I engineered, successfully integrated into a mini CNC mill.
+                    The bed could be leveled within ±127 µm across the length and width of the work plate, which held the vice
+                    for machining parts.
                   </p>
                 </div>
               </BackgroundGradient>
@@ -480,7 +482,7 @@ export default function Projects() {
                 </p>
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500 pb-2">
-                    I made this video as an attempt to show people the greatest takeaway I had when learning about math and physics.
+                    I created this video to share the greatest takeaway I had from learning math and physics.
                   </p>
                   <p className="text-sm text-slate-500">
                     I made a handful of other tutorials, as well. Those videos received over 185,000 views, but it wasn't significant enough
