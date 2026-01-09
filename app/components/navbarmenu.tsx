@@ -46,10 +46,10 @@ export function NavbarMenu() {
       name: "Diploma",
       link: "/diploma",
     },
-    {
-      name: "Coming Soon",
-      link: "/comingSoon",
-    },
+    // {
+    //   name: "Coming Soon",
+    //   link: "/comingSoon",
+    // },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
