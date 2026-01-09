@@ -23,7 +23,7 @@ export function NavbarMenu() {
       link: "/resume",
     },
     {
-      name: "Robotics Engineering",
+      name: "Education",
       link: "/robotics_engineering",
     },
     {
