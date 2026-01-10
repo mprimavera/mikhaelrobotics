@@ -25,23 +25,8 @@ export default function Resume() {
       content: (
         <div>
           <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Applied for M.S. in Artificial Intelligence (online), Johns Hopkins University, starting May 2026
-          </p>
-
-          {/* Centered button */}
-          <div className="flex justify-center">
-            <a
-              href="https://ep.jhu.edu/programs/artificial-intelligence/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="px-4 py-2 bg-black/50 bg-slate-800 text-blue-400 rounded-2xl shadow transition
-              hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
-                Artificial Intelligence Master's Program Online
-              </button>
-            </a>
-          </div>
-    
+            Applied for M.S. in Artificial Intelligence (online), starting May 2026
+          </p>  
         </div>
       ),
     },

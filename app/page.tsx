@@ -37,7 +37,7 @@ export default function Home() {
               B.S. in Robotics Engineering, Worcester Polytechnic Institute, December 2025
             </p>
             <p className="max-w-full text-sm font-semibold sm:text-lg leading-10 tracking-tight text-slate-400">
-              Applying for M.S. in Artificial Intelligence, Johns Hopkins University, starting May 2026
+              Applying for M.S. in Artificial Intelligence, starting May 2026
             </p>
           </div>
 
