@@ -64,7 +64,7 @@ const RoboticsAccordion = [
     defaultOpen: true,
   },
   { title: "RBE2001: Mechanical Applications", content: `
-    Using SOLIDWORKS for design and FEA, gears were designed and implemented into a four-bar linkage. The objective was to lift an aluminum
+    Using SOLIDWORKS for CAD and FEA, gears were designed and integrated into a four-bar linkage. The objective was to lift an aluminum
     part using a weak motor attached to a Romi robot, then move the part to a preset position using line-following and wall-sensing sensors.`
   },
   { title: "RBE2002: Sensing and Perception", content: `IMU, sonar, vision, and infrared sensors were used with C++ to mathematically
@@ -78,7 +78,7 @@ const RoboticsAccordion = [
     moved and oriented itself on the map using LiDAR and Kalman filtering.`
   },
   { title: "Industrial Robotics", content: `Our four-person team programmed an Arduino PLC, which controlled a system of industrial
-    robots (a UR5 Universal Robot and an M-1iA FANUC delta robot), as well as two conveyor belts.`
+    robots (a UR5 Universal Robots arm and an M-1iA FANUC delta robot), as well as two conveyor belts.`
   },
 ]
 
@@ -126,11 +126,37 @@ const CSAccordion = [
     ),
     defaultOpen: true,
   },
-  { title: "Linux OS", content: `I used the Linux operating system extensively throughout the robotics curriculum. I have experience with both
+  { title: "Linux OS", content: `I used Linux extensively throughout the robotics curriculum. I have experience with both
   the graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
   },
   { title: "C and C++", content: `I programmed in C and C++ for automation based on sensor feedback. This experience strengthened my
     understanding of low-level memory management and data representation—and how this knowledge pertains to higher-level languages such as Python.` 
+  },
+  {
+    title: "Assembly",
+    content: (
+      <div className="space-y-4 pb-2">
+        <p>
+          I took an online embedded systems course alongside the course I was enrolled in at WPI; it was taught by Professor Brock LaMeres, Ph.D.
+          The course included programming an MSP430 with about a dozen programs using the Assembly language.
+        </p>
+        {/* Centered button */}
+        <div className="flex justify-center mt-2 mb-2">
+          <a
+            href="https://youtube.com/playlist?list=PL643xA3Ie_Esqz6SnU0rqAU_t3GjwnFk5&si=IgoeVqHKRLtz37_O"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-4 py-2 bg-slate-800 text-blue-400 border-slate-500 rounded-2xl shadow transition
+            hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
+              Course Link
+            </button>
+          </a>
+        </div>
+      </div>
+      
+    ),
+    defaultOpen: true,
   },
   { title: "Object-Oriented Programming in Python and Java", content: `Java was the language used in the Object-Oriented Programming
     course. Python and C++ were used extensively in robotics coursework for implementing custom data structures.` 
@@ -140,7 +166,7 @@ const CSAccordion = [
   },
   { title: "LaTeX", content: `In Robotics Ethics, our team of four was required to write numerous reports using LaTeX.` 
   },  
-  { title: "Universal Robot and FANUC", content: `In Industrial Robotics we programmed a UR5 Universal Robot and an M-1iA FANUC delta
+  { title: "Universal Robots and FANUC", content: `In Industrial Robotics, we programmed a UR5 Universal Robots arm and an M-1iA FANUC delta
     robot.` 
   },  
   { title: "MATLAB", content: `MATLAB was required for numerous courses, including Controls, Manipulation, and Industrial Robotics. I also chose
@@ -160,7 +186,7 @@ const electricalAccordion = [
   { title: "Communications Protocols", content: (
     <div className="space-y-4">
       <p>
-        Communications protocols were applied extensively in robotics and embedded systems coursework.
+        Communication protocols were applied extensively in robotics and embedded systems coursework.
       </p>
       <ul className="list-disc pl-5 space-y-1">
         <li>UART</li>
@@ -297,8 +323,8 @@ export default function Education() {
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-6">
             I earned a Bachelor of Science in Robotics Engineering from Worcester Polytechnic Institute in December of 2025.
-            The program is ABET-accredited. Because this degree is less common than a traditional mechanical or electrical engineering
-            degree, I created this page to provide additional detail.
+            The program is ABET-accredited. Because this degree is more specialized and less widely offered than typical computer,
+            mechanical, or electrical engineering degrees, I created this page to provide additional detail.
 
           </p>
           <p className="mb-24">
