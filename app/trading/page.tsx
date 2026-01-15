@@ -54,7 +54,7 @@ export default function Trading() {
 
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
                 Research visualization showing live market data, model-derived reference structure,
-                and automated trade signals over approximately 400 trading days.
+                and automated trade signals over approximately one year.
               </p>
 
               <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
