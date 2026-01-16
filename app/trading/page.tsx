@@ -55,7 +55,7 @@ export default function Trading() {
               />
 
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
-                Research visualization showing live market data, model-derived reference structure,
+                Research visualization showing live market data, model-derived price projection (light blue),
                 and automated trade signals over approximately one year.
               </p>
 
