@@ -32,9 +32,6 @@ export default function Trading() {
 
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
-            This page provides additional context on my trading systems background beyond what fits naturally on my résumé.
-          </p>
-          <p>
             My formal training is in Robotics Engineering, with strong foundations in systems design, applied mathematics,
             control theory, and software engineering. In parallel, I have spent nearly nine years independently studying
             market microstructure, derivatives, and systematic trading design, while designing, implementing, and
