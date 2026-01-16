@@ -45,7 +45,7 @@ export default function Trading() {
           </p>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-18 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-20 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Research Visualization Example">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img
@@ -55,7 +55,7 @@ export default function Trading() {
               />
 
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
-                Research visualization showing live market data, model-derived price projection (light blue),
+                Research visualization showing live market data, a model-derived price projection (light blue),
                 and automated trade signals over approximately one year.
               </p>
 
