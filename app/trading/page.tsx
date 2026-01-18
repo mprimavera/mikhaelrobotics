@@ -142,7 +142,7 @@ export default function Trading() {
               />
 
               <p className="text-base sm:text-xl mb-2 text-slate-400">
-                Evaluation emphasizes risk-adjusted performance, stability across regimes, and behavior under adverse market conditions.
+                Evaluation emphasizes risk-adjusted performance via quantative numerical output.
               </p>
             </div>
           </ProjectSection>
