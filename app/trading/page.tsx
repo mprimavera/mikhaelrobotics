@@ -84,6 +84,12 @@ export default function Trading() {
                 in the images on this page. The underlying analysis is performed programmatically; Excel is used here solely for visualization
                 and parameter inspection.
               </p>
+              <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
+                The underlying platform provides market data and visualization. All strategy logic,
+                signal generation, and trade state handling were designed and implemented by me.
+                These examples are provided solely to illustrate system design and research workflow,
+                not to disclose proprietary methods or claim statistical edge.
+              </p>
             </div>
           </ProjectSection>
         </div>
@@ -99,13 +105,6 @@ export default function Trading() {
 
               <p className="text-base text-center sm:text-xl mb-2 text-slate-400">
                 The model is then implemented as executable strategy logic, integrating signal generation, state management, and execution constraints.
-              </p>
-
-              <p className="text-sm text-slate-500 mt-3 pt-3 border-t border-slate-700/50">
-                The underlying platform provides market data and visualization. All strategy logic,
-                signal generation, and trade state handling were designed and implemented by me.
-                These examples are provided solely to illustrate system design and research workflow,
-                not to disclose proprietary methods or claim statistical edge.
               </p>
             </div>
           </ProjectSection>
