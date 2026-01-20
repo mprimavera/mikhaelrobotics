@@ -1,7 +1,5 @@
 import Image from "next/image";
-import { WavyBackground } from "@/components/ui/wavy-background";
-import { Accordion } from "./components/accordion";
-
+import { GridItem } from "./components/grid_item";
 const learnMore = [
   { title: "Learn More", content: `As I complete my education, I am seeking a role where I can contribute to innovative projects
     and refine my technical expertise.` },
@@ -13,7 +11,7 @@ export default function Home() {
     <div className="relative w-full h-screen ">
       {/* Main content */}
       <div className="relative flex items-center justify-center font-sans w-full h-full
-        bg-[url('/arm_chip.jpeg')]
+        bg-[url('/cover.png')]
         bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-black/70 pointer-events-none z-0
         [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_100%)]" />
@@ -32,21 +30,31 @@ export default function Home() {
           </div>
 
           {/* Details */}
-          <div className="flex flex-col items-center gap-6 text-center mt-10">
-            <p className="max-w-full text-sm font-semibold sm:text-lg leading-10 tracking-tight text-slate-400">
-              B.S. in Robotics Engineering, Worcester Polytechnic Institute, December 2025
-            </p>
-            <p className="max-w-full text-sm font-semibold sm:text-lg leading-10 tracking-tight text-slate-400">
-              Applying for M.S. in Artificial Intelligence, starting May 2026
+          <div className="flex flex-col items-center gap-6 text-center mt-10 mb-10">
+            <p className="max-w-full text-2xl sm:text-3xl font-semibold leading-snug tracking-tight text-slate-400">
+              Robotics Engineer & Quantitative Developer
             </p>
           </div>
 
-          <Accordion items={learnMore} />
+
+
+          <div className="w-full max-w-md mx-auto">
+            <GridItem
+              icon={null}
+              title={
+                <a
+                  href="/trading"
+                  className="text-center break-all sm:break-normal"
+                >
+                  Learn More
+                </a>
+              }
+              description={null}
+            />
+          </div>
 
         </main>
       </div>
     </div>
   );
 }
-
-

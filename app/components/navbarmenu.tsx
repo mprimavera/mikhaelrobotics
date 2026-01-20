@@ -23,16 +23,16 @@ export function NavbarMenu() {
       link: "/resume",
     },
     {
+      name: "Trading",
+      link: "/trading",
+    },
+    {
       name: "Education",
       link: "/education",
     },
     {
       name: "Projects",
       link: "/projects",
-    },
-    {
-      name: "Trading",
-      link: "/trading",
     },
     {
       name: "Products",
