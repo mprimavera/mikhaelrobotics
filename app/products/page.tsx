@@ -299,9 +299,10 @@ export default function Products() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="">
-            These are the products I designed, manufactured, marketed, and sold through my e-commerce store. I strategically shifted my
-            focus toward strengthening my technical foundation, earning a B.S. in Robotics Engineering and now pursuing an M.S. in
-            Artificial Intelligence.
+            These products showcase my experience in end-to-end technical expertise, from the research phase
+            all the way through distribution. Each project required navigating both marketing and engineering
+            complexities. I honed these skills through years of real-world experience, complemented by formal
+            training in Robotics Engineering—and I am now expanding them through an M.S. in Artificial Intelligence.
           </p>
         </div>
       </div>

@@ -206,12 +206,10 @@ export default function Machines() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
           <p className="mb-6">
-            Over the years, I’ve learned that integrity is key to success in business; therefore, I remain transparent about my
-            entrepreneurial experience, network, and resources. Although this may limit opportunities, it ensures alignment with
-            companies seeking my exact skill set, character, and drive—creating an optimal outcome for both parties.
-          </p>
-          <p className="">
-            That being said, here are the machines currently in my workshop.
+            In addition to my quantitative trading and research experience, I have built a technical workshop
+            that reflects my hands-on problem-solving skills and operational expertise. This workshop demonstrates
+            my ability to design, build, and execute complex systems—a skill set directly applicable to engineering,
+            automation, and R&D roles.
           </p>
         </div>
       </div>       

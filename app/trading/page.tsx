@@ -29,22 +29,17 @@ export default function Trading() {
         <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
           Trading
         </h2>
-
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p className="mb-6">
-            My formal training is in Robotics Engineering, with strong foundations in systems design, applied mathematics,
-            control theory, and software engineering. In parallel, I have spent over eight years in independent study and
-            applied experimentation in market microstructure, derivatives, and systematic trading design, while designing, implementing, and
-            evaluating algorithmic trading strategies. My focus has been on building research tools that support clear,
-            disciplined reasoning about model behavior under live market conditions.
+            I have formal training in Robotics Engineering, with strong foundations in systems design, applied mathematics, control theory, and software engineering. 
+            In parallel, I have over eight years of independent research and applied experimentation in market microstructure, derivatives, and systematic trading, 
+            designing, implementing, and evaluating algorithmic strategies. My focus is on building research tools that enable disciplined, data-driven reasoning under live market conditions.
           </p>
           <p className="mb-6">
-            The following is an illustrative example showing how I use fundamental datasets to construct and evaluate a quantitative trading hypothesis,
-            then translate that into executable strategy code to generate trade histories, providing context on how models are analyzed and iteratively
-            refined through numerical evaluation.
+            The example below illustrates how I use fundamental datasets to construct and evaluate a quantitative trading hypothesis, 
+            translate it into executable strategy code, and generate trade histories—providing context for how models are analyzed and iteratively refined.
           </p>
         </div>
-
         <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-36 md:pb-28 lg:pb-20 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Acquire and Analyze Relevant Data">
             <div className="w-full max-w-7xl mx-auto px-4">
