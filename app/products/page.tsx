@@ -75,39 +75,6 @@ export default function Products() {
         />
       ),
     },
-    {
-      title: "Π: Digital Contact Cards",
-      src: "/pi_front.jpg",
-      accordion: (
-        <Accordion
-          items={[
-            { title: "Π: Digital Contact Cards", 
-              content: 
-              <p>
-                This was an example template of the front for customers during checkout.
-              </p> 
-            },
-          ]}
-        />
-      ),
-    },
-    {
-      title: "Π: Digital Contact Cards",
-      src: "/pi_back.jpg",
-      accordion: (
-        <Accordion
-          items={[
-            { title: "Π: Digital Contact Cards", 
-              content: 
-              <p>
-                This was an example template of the back for customers during checkout. The vCard information embedded in the QR
-                code is outdated (if you scan this image with a phone now).
-              </p> 
-            },
-          ]}
-        />
-      ),
-    },
 
     /* ζ: Custom Thumb Screws */
     {

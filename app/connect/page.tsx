@@ -16,7 +16,7 @@ export default function ConnectPage() {
 
         <div className="space-y-6">
           {/* Email direct */}
-          <div className="w-full max-w-md mx-auto">
+          {/* <div className="w-full max-w-md mx-auto">
             <GridItem
               icon={<Mail className="h-6 w-6 text-neutral-400" />}
               title={
@@ -29,7 +29,7 @@ export default function ConnectPage() {
               }
               description={null}
             />
-          </div>
+          </div> */}
           {/* LinkedIn */}
           <div className="w-full max-w-md mx-auto">
             <GridItem
@@ -42,23 +42,6 @@ export default function ConnectPage() {
                   className="text-center break-all sm:break-normal"
                 >
                   Michael Primavera on LinkedIn
-                </a>
-              }
-              description={null}
-            />
-          </div>
-          {/* GitHub */}
-          <div className="w-full max-w-md mx-auto">
-            <GridItem
-              icon={<Github className="h-6 w-6 text-neutral-400" />}
-              title={
-                <a
-                  href="https://github.com/mprimavera"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-center break-all sm:break-normal"
-                >
-                  Michael Primavera on GitHub
                 </a>
               }
               description={null}
