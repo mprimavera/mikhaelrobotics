@@ -42,15 +42,10 @@ export function NavbarMenu() {
       name: "Machines",
       link: "/machines",
     },
-    // {
-    //   name: "IP",
-    //   link: "/ip",
-    // },
-    // {
-    //   name: "Diploma",
-    //   link: "/diploma",
-    // },
-
+    {
+      name: "IP",
+      link: "/ip",
+    },
     // {
     //   name: "Coming Soon",
     //   link: "/comingSoon",

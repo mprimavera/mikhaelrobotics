@@ -15,22 +15,19 @@ export default function Ip() {
         </h2>
 
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
-          <p className="mb-6">
-            After our family business handled manufacturing and engineering for a single company for nearly 20 years,
-            the owners decided to move production to China. The silver lining to the situation is that I experienced firsthand
-            the importance of IP.
+         <p className="mb-6">
+            During my experience in our family business, I saw firsthand the importance of intellectual property
+            in engineering and manufacturing.
           </p>
 
           <p className="mb-6">
-            As time progressed, I ended up hiring an IP attorney to secure a copyright for Part I of a trilogy I wrote. Later, I
-            learned how to file for trademarks. I applied for "AlphaOmega" in the computer hardware industry but was denied because
-            another company, Alpha Omega Solutions, held a trademark in a similar industry. I hired an attorney to dispute the United
-            States Patent and Trademark Office’s decision, and ultimately did not win.
+            I secured a copyright for Part I of a trilogy I wrote and also applied for a trademark, gaining practical
+            experience navigating the United States Patent and Trademark Office process and collaborating with IP attorneys.
           </p>
 
           <p className="mb-6">
-            As someone who understands the importance of IP both as an engineer and as an employer, I now work with an IP attorney
-            whenever I need to sign a contract.
+            These experiences highlight my understanding of IP as both a creator and engineer, demonstrating initiative
+            and attention to legal and technical detail.
           </p>
         </div>
       </div>
@@ -45,7 +42,7 @@ export default function Ip() {
           title={
             <a
               href="https://publicrecords.copyright.gov/detailed-record/voyager_29808827"
-              target="_blank"  rel="noopener noreferrer"
+              target="_blank" rel="noopener noreferrer"
               className="text-blue-400 text-center  sm:break-normal">
               Copyright for Part I: Mind
             </a>
@@ -62,7 +59,7 @@ export default function Ip() {
           title={
             <a
               href="https://tsdr.uspto.gov/#caseNumber=88075231&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
-              target="_blank"  rel="noopener noreferrer"
+              target="_blank" rel="noopener noreferrer"
               className="text-blue-400 text-center  sm:break-normal">
               AlphaOmega Trademark Dispute
             </a>
