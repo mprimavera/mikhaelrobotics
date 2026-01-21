@@ -44,9 +44,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       </h2>
       <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed">
         <p className="mb-6">
-          Robotics Engineer with industry experience in robotic system integration, field service engineering, embedded systems,
-          and advanced manufacturing. Strong cross-disciplinary background spanning robotics, software, electrical, and mechanical
-          engineering, with a proven ability to deploy real-world systems and quickly advance in technical roles.
+          Robotics Engineer with 8+ years of self-directed algorithmic trading and quantitative 
+          research experience. Skilled in systematic strategy design, model evaluation, and data-
+          driven decision-making, combining strong foundations in applied mathematics, systems 
+          design, and software engineering.
         </p>
       </div>
     </div>
