@@ -5,10 +5,10 @@ import { StickyBanner } from "@/components/ui/sticky-banner";
 
 const CSAccordion = [
 
-  { title: "Object-Oriented Programming in Python and Java", content: (`Python and C++ were used extensively in robotics coursework
-    to implement custom data structures, while Java was the language for the Object-Oriented Programming course.`),
+  { title: "Object-Oriented Programming in Python, C++, and Java", content: (`Python and C++ were used extensively in robotics coursework
+    to implement custom data structures and program control based on sensor feedback, while Java was the language for the Object-Oriented
+    Programming course.`),
     defaultOpen: true,
-  
   },
   { title: "MATLAB", content: `MATLAB was required for numerous courses, including Controls, Manipulation, and Industrial Robotics. I also chose
     to use MATLAB in Multivariable Calculus, Linear Algebra, and Circuit Analysis to solve problems ranging from vector fields to DC circuits.` 
@@ -200,51 +200,7 @@ const RoboticsAccordion = [
   },
 ]
 
-const MQPAccordion = [
-  {
-    title: "Mini CNC Mill",
-    content: (
-      <div className="space-y-4 pb-2">
-        <p>
-          The Major Qualifying Project (MQP) at WPI is a senior design requirement. My key contributions included:
-        </p>
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Designed and implemented mechanical bed leveling</li>
-          <li>Established a GitHub-based workflow for version control and remote collaboration on SOLIDWORKS files</li>
-          <li>Performed load and torque calculations to verify bearing capacity along the linear rails</li>
-          <li>Discovered that the software "glitches" noticed by students were actually the result of electromagnetic interference (EMI)
-            from the VFD powering the spindle</li>
-          <li>Developed a laser probe and safety system for the automatic tool changer</li>
-          <li>Calibrated axis motors and drivers</li>
-          <li>Created new fixturing for the work area</li>
-          <li>Contributed significantly to ten of the fourteen sections of the MQP final report</li>
-        </ul>
-
-        {/* Centered button */}
-        <div className="flex justify-center mt-2 mb-2">
-          <a
-            href="https://digital.wpi.edu/concern/parent/h128nk052/file_sets/gf06g7088"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="px-4 py-2 bg-slate-800 text-blue-400 border-slate-500 rounded-2xl shadow transition
-            hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
-              View Full Report
-            </button>
-          </a>
-        </div>
-      </div>
-      
-    ),
-    defaultOpen: true,
-  },
-];
-
 const electricalAccordion = [
-  { title: "Embedded Systems", content: (`This course required the use of KiCad to develop schematics for all circuits.
-    The calculations to ensure proper design of voltages and currents were done with MATLAB, and electrical simulations were done
-    with MATLAB Simscape Electrical.`), 
-    defaultOpen: true,},
   { title: "Communications Protocols", content: (
     <div className="space-y-4">
       <p>
@@ -257,6 +213,11 @@ const electricalAccordion = [
       </ul>
     </div>
   ),
+  defaultOpen: true,
+  },
+  { title: "Embedded Systems", content: (`This course required the use of KiCad to develop schematics for all circuits.
+    The calculations to ensure proper design of voltages and currents were done with MATLAB, and electrical simulations were done
+    with MATLAB Simscape Electrical.`),
   },
   { title: "Circuit Analysis", content: `This course primarily covered DC circuits, with some exposure to AC circuits. MATLAB was used
     for solving systems of equations that modeled the circuits. The node method was used heavily in this course.` 
@@ -264,7 +225,6 @@ const electricalAccordion = [
   { title: "Electromagnetism", content: `This calculus-based course covered the physics of electromagnetism. The lab associated
     with this course required the building and analysis of DC circuits.` 
   },
-
 ]
 
 const mechanicalAccordion = [
@@ -309,11 +269,50 @@ const toolsAccordion = [
   },
 ]
 
+const MQPAccordion = [
+  {
+    title: "Mini CNC Mill",
+    content: (
+      <div className="space-y-4 pb-2">
+        <p>
+          The Major Qualifying Project (MQP) at WPI is a senior design requirement. My key contributions included:
+        </p>
+        <ul className="list-disc pl-5 space-y-1">
+          <li>Designed and implemented mechanical bed leveling</li>
+          <li>Established a GitHub-based workflow for version control and remote collaboration on SOLIDWORKS files</li>
+          <li>Performed load and torque calculations to verify bearing capacity along the linear rails</li>
+          <li>Discovered that the software "glitches" noticed by students were actually the result of electromagnetic interference (EMI)
+            from the VFD powering the spindle</li>
+          <li>Developed a laser probe and safety system for the automatic tool changer</li>
+          <li>Calibrated axis motors and drivers</li>
+          <li>Created new fixturing for the work area</li>
+          <li>Contributed significantly to ten of the fourteen sections of the MQP final report</li>
+        </ul>
+
+        {/* Centered button */}
+        <div className="flex justify-center mt-2 mb-2">
+          <a
+            href="https://digital.wpi.edu/concern/parent/h128nk052/file_sets/gf06g7088"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-4 py-2 bg-slate-800 text-blue-400 border-slate-500 rounded-2xl shadow transition
+            hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
+              View Full Report
+            </button>
+          </a>
+        </div>
+      </div>
+      
+    ),
+    defaultOpen: true,
+  },
+];
+
 export default function Education() {
   return (
 
     <div className="">
-
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-12 text-slate-400 font-semibold">
           Education
@@ -324,13 +323,11 @@ export default function Education() {
             I earned a Bachelor of Science in Robotics Engineering from Worcester Polytechnic Institute in December of 2025.
             The program is ABET-accredited. Because this degree is more specialized and less widely offered than typical computer,
             mechanical, or electrical engineering degrees, I created this page to provide additional detail.
-
           </p>
           <p className="mb-24">
             The following is a list of the relevant courses I took that pertain to the fields of Robotics Engineering and Business.
           </p>
         </div>
-
         {/* Accordions */}
         <div className="space-y-12">
 
@@ -355,11 +352,6 @@ export default function Education() {
           <Accordion items={RoboticsAccordion} />
 
           <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Major Qualifying Project
-          </p>
-          <Accordion items={MQPAccordion} />
-
-          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Electrical Engineering
           </p>
           <Accordion items={electricalAccordion} />
@@ -373,6 +365,11 @@ export default function Education() {
             Engineering Software and Tools
           </p>
           <Accordion items={toolsAccordion} />
+
+          <p className="mb-2 text-center sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+            Major Qualifying Project
+          </p>
+          <Accordion items={MQPAccordion} />
 
         </div>
       </div>
