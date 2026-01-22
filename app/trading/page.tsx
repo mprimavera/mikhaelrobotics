@@ -108,7 +108,7 @@ export default function Trading() {
           </ProjectSection>
         </div>
 
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-24 md:pb-18 lg:pb-14 bg-black/70 min-w-[410px] text-center">
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 pb-30 md:pb-18 lg:pb-14 bg-black/70 min-w-[410px] text-center">
           <ProjectSection title="Out-of-Sample Testing and Performance Attribution">
             <div className="w-full max-w-7xl mx-auto px-4">
               <img

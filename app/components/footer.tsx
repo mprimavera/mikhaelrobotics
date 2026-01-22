@@ -44,7 +44,7 @@ export default function Footer() {
       </div>
 
       <p className="mt-4 text-center text-slate-500 text-sm">
-        Copyright © 2026  MikhaelRobotics™  All rights reserved.
+        Copyright © 2026 | Michael Primavera | All rights reserved.
       </p>
     </footer>
   );

@@ -31,10 +31,9 @@ export default function Projects() {
         </h2>
         <div className="text-slate-500 lg:text-xl md:text-base max-w-2xl lg:max-w-4xl leading-relaxed mb-12">
           <p>
-            I’ve included videos showcasing some of the projects I’ve worked on to demonstrate the technical skills I’ve developed. This
-            is not a comprehensive list. At Milara, I was not permitted to take photos or videos of the sorters I worked on. During my
-            time there, I performed field service engineering as part of their software team at semiconductor cleanroom fabrication
-            facilities.
+            These projects represent selected examples of my technical work and analytical approach. This is not an exhaustive
+            representation, and some professional experience—such as my work on Milara’s software team—cannot be displayed due
+            to confidentiality restrictions.
           </p>
         </div>
 
@@ -86,6 +85,176 @@ export default function Projects() {
                     As part of a three-person team, we programmed the robot using the MATLAB Computer Vision Toolbox and
                     libraries to control the servo motors. All trajectory planning was written from scratch using both forward
                     and inverse kinematics.
+                  </p>
+                </div>
+              </BackgroundGradient>
+            </div>
+          </ProjectSection>
+        </div>
+
+        {/* ===== Embedded Systems ===== */}
+          <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
+            <ProjectSection title="Embedded Systems">
+              {/* Embedded systems PD control*/}
+              <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                  <div className="w-full aspect-video mb-4">
+                    <iframe
+                      loading="lazy"
+                      className="w-full h-full rounded-lg"
+                      src="https://www.youtube.com/embed/JtrBYZ2HA0A?si=AOZyXL8qBJvhRXvJ"
+                      title="Embedded Programming"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                  <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                    Embedded programming of proportional-derivative (PD) control in C
+                  </p>
+                  <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+                    <p className="text-sm text-slate-500">
+                      Using Linux and the Pico SDK, all code was written from scratch, including the display code and encoder-based
+                      proportional-derivative control. Integral control was implemented in other projects.
+                    </p>
+                  </div>
+                </BackgroundGradient>
+              </div>
+              {/* Adjustable Duty Cycle */}
+              <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                  <div className="w-full aspect-video mb-4">
+                    <iframe
+                      loading="lazy"
+                      className="w-full h-full rounded-lg"
+                      src="https://www.youtube.com/embed/4sNkf1GcZYo?si=Q8oHnvzp2FLXDE7U"
+                      title="Adjustable Duty Cycle"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                  <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                    Embedded programming in C: adjustable duty cycle
+                  </p>
+                  <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+                    <p className="text-sm text-slate-500">
+                      I used a potentiometer with an ADC module to adjust the duty cycle output of a PWM pin on a Raspberry Pi
+                      Pico 2 W microcontroller. The code was written in C using a Linux environment. An oscilloscope was used
+                      to verify correct operation within ±2.5%.
+                    </p>
+                  </div>
+                </BackgroundGradient>
+              </div>
+              {/* ADC Voltmeter */}
+              <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                  <div className="w-full aspect-video mb-4">
+                    <iframe
+                      loading="lazy"
+                      className="w-full h-full rounded-lg"
+                      src="https://www.youtube.com/embed/NoOMwVs4Xgc?si=h2jmUgXBTvQxhXA_"
+                      title="ADC Voltmeter"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                  <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                    Embedded programming in C: ADC voltmeter
+                  </p>
+                  <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+                    <p className="text-sm text-slate-500">
+                      I created a voltmeter using a Raspberry Pi Pico 2 W microcontroller, potentiometer, and 7-segment 4-digit LED display.
+                      Apart from the SDK library, all code was written from scratch. The display ran on a timer interrupt, and output was
+                      based on the ADC reading of the potentiometer's wiper pin.
+                    </p>
+                  </div>
+                </BackgroundGradient>
+              </div>
+          </ProjectSection>
+        </div>
+
+        {/* ===== Entrepreneurial & Independent Projects ===== */}
+        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
+          <ProjectSection title="Entrepreneurial & Independent Projects">
+            {/* Dynamic Price Modeling */}
+            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                <div className="w-full aspect-video mb-4">
+                  <iframe
+                    loading="lazy"
+                    className="w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/ImnPgaXRYiE?si=qbOXJHOjimXK0Olx"
+                    title="Dynamic Price Modeling"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                  Dynamic price modeling using MATLAB and multivariable calculus
+                </p>
+                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+                  <p className="text-sm text-slate-500 pb-2">
+                    I used fixed and variable costs to develop a formula in which the intersection of a level plane with a 3D
+                    curve yielded the price required to sell a variable quantity while achieving a constant profit rate.
+                  </p>
+                </div>
+              </BackgroundGradient>
+            </div>
+            {/* The Essence of Mathematics: Simplicity */}
+            <div className="w-full max-w-[400px] min-w-[400px] mx-auto mb-8">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                <div className="w-full aspect-video mb-4">
+                  <iframe
+                    loading="lazy"
+                    className="w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/N_LkVzzLo98?si=wY2LWoX80kVWySSI"
+                    title="The Essence of Mathematics: Simplicity"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                  The Essence of Mathematics: Simplicity
+                </p>
+                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+                  <p className="text-sm text-slate-500 pb-2">
+                    I created this video to share the greatest takeaway I had from learning math and physics.
+                  </p>
+                  <p className="text-sm text-slate-500">
+                    I made a handful of other tutorials as well. Those videos received over 185,000 views, but it wasn’t enough
+                    to justify dedicating the time, which I decided was better spent furthering my own knowledge.
+                  </p>
+                </div>
+              </BackgroundGradient>
+            </div>
+            {/* Ethereum mining rig */}
+            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
+                <div className="w-full aspect-video mb-4">
+                  <iframe
+                    loading="lazy"
+                    className="w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/iZbmoNKK79Q?si=ySQ3apqZFEGSVdLW"
+                    title="AlphaOmega LLC First Prototype: Cryptocurrency Mining Rig"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
+                  AlphaOmega LLC's first prototype: cryptocurrency mining rig
+                </p>
+                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
+                  <p className="text-sm text-slate-500">
+                    After the Bitcoin price spike in late 2017, I built an Ethereum mining rig. At the time, rigs sold for
+                    $10,000–$20,000 online, but I built mine for ~$1,200. This resulted in a potential for significant profit.
+                  </p>
+                  <p className="text-sm text-slate-500">
+                    This marked the beginning of AlphaOmega LLC.
                   </p>
                 </div>
               </BackgroundGradient>
@@ -166,9 +335,9 @@ export default function Projects() {
                 </p>
                 <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
                   <p className="text-sm text-slate-500">
-                    This video shows successful testing of the helicoil’s ability to withstand the torque calculated to fasten the mini
-                    CNC mill’s work plate to the linear rails and ball screw. The test was performed on scrap materials before machining the
-                    actual work plate, keeping the project within budget.
+                    This video documents successful testing of the helicoil’s ability to withstand the torque calculated to
+                    fasten the mini CNC mill’s work plate to the linear rails and ball screw. The test was performed on scrap
+                    materials before machining the actual work plate, keeping the project within budget.
                   </p>
                 </div>
               </BackgroundGradient>
@@ -317,176 +486,6 @@ export default function Projects() {
                   <p className="text-sm text-slate-500">
                     This video demonstrates my experience prototyping with additive manufacturing. It is more cost-effective to develop
                     ideas in CAD, then produce parts on a 3D printer, before subtractive manufacturing.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-          </ProjectSection>
-        </div>
-
-        {/* ===== Embedded Systems ===== */}
-          <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
-            <ProjectSection title="Embedded Systems">
-              {/* Embedded systems PD control*/}
-              <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                  <div className="w-full aspect-video mb-4">
-                    <iframe
-                      loading="lazy"
-                      className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/JtrBYZ2HA0A?si=AOZyXL8qBJvhRXvJ"
-                      title="Embedded Programming"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                  <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                    Embedded programming of proportional-derivative (PD) control in C
-                  </p>
-                  <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                    <p className="text-sm text-slate-500">
-                      Using Linux and the Pico SDK, all code was written from scratch, including the display code and encoder-based
-                      proportional-derivative control. Integral control was implemented in other projects.
-                    </p>
-                  </div>
-                </BackgroundGradient>
-              </div>
-              {/* Adjustable Duty Cycle */}
-              <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                  <div className="w-full aspect-video mb-4">
-                    <iframe
-                      loading="lazy"
-                      className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/4sNkf1GcZYo?si=Q8oHnvzp2FLXDE7U"
-                      title="Adjustable Duty Cycle"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                  <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                    Embedded programming in C: adjustable duty cycle
-                  </p>
-                  <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                    <p className="text-sm text-slate-500">
-                      I used a potentiometer with an ADC module to adjust the duty cycle output of a PWM pin on a Raspberry Pi Pico 2 W microcontroller. The code was written in C using a Linux environment. An oscilloscope verified correct operation within ±2.5%.
-                    </p>
-                  </div>
-                </BackgroundGradient>
-              </div>
-              {/* ADC Voltmeter */}
-              <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-                <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                  <div className="w-full aspect-video mb-4">
-                    <iframe
-                      loading="lazy"
-                      className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/NoOMwVs4Xgc?si=h2jmUgXBTvQxhXA_"
-                      title="ADC Voltmeter"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                  <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                    Embedded programming in C: ADC voltmeter
-                  </p>
-                  <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                    <p className="text-sm text-slate-500">
-                      I created a voltmeter using a Raspberry Pi Pico 2 W microcontroller, potentiometer, and 7-segment 4-digit LED display.
-                      Apart from the SDK library, all code was written from scratch. The display ran on a timer interrupt, and output was
-                      based on the ADC reading of the potentiometer's wiper pin.
-                    </p>
-                  </div>
-                </BackgroundGradient>
-              </div>
-          </ProjectSection>
-        </div>
-
-        {/* ===== Entrepreneurial & Independent Projects ===== */}
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
-          <ProjectSection title="Entrepreneurial & Independent Projects">
-            {/* Ethereum mining rig */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/iZbmoNKK79Q?si=ySQ3apqZFEGSVdLW"
-                    title="AlphaOmega LLC First Prototype: Cryptocurrency Mining Rig"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  AlphaOmega LLC's first prototype: cryptocurrency mining rig
-                </p>
-
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    After the Bitcoin price spike in late 2017, I built an Ethereum mining rig. At the time, rigs sold for
-                    $10,000–$20,000 online, but I built mine for ~$1,200. This resulted in a significant potential profit.
-                  </p>
-                  <p className="text-sm text-slate-500">
-                    This marked the beginning of AlphaOmega LLC.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* Dynamic Price Modeling */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/ImnPgaXRYiE?si=qbOXJHOjimXK0Olx"
-                    title="Dynamic Price Modeling"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  Dynamic price modeling using MATLAB and multivariable calculus
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500 pb-2">
-                    I used the fixed and variable costs to develop a formula where the intersection of a level plane with a 3D curve
-                    yielded the price at which to sell the variable quantity to achieve the desired constant profit rate.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* The Essence of Mathematics: Simplicity */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto mb-8">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/N_LkVzzLo98?si=wY2LWoX80kVWySSI"
-                    title="The Essence of Mathematics: Simplicity"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  The Essence of Mathematics: Simplicity
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500 pb-2">
-                    I created this video to share the greatest takeaway I had from learning math and physics.
-                  </p>
-                  <p className="text-sm text-slate-500">
-                    I made a handful of other tutorials as well. Those videos received over 185,000 views, but it wasn’t enough
-                    to justify dedicating the time, which I decided was better spent furthering my own knowledge.
                   </p>
                 </div>
               </BackgroundGradient>
