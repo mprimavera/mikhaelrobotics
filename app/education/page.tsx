@@ -19,13 +19,13 @@ const CSAccordion = [
   },
   { title: "thinkScript", content: `Developed and deployed trading strategies in thinkScript, translating research insights into actionable, testable models.`
   },
-  { title: "Linux OS", content: `I used Linux extensively throughout the robotics curriculum. I have experience with both
+  { title: "Linux OS", content: `Linux was used extensively throughout the robotics curriculum. I have experience with both
   the graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
   },
-  { title: "SQL", content: `I worked with PostSQL in Software Engineering to collaboratively integrate a back end database, for storing user information, with
-    the user-facing front end.`
+  { title: "SQL", content: `I worked with PostgreSQL in Software Engineering to collaboratively integrate a back end database for storing user
+    information with the user-facing front end.`
   }, 
-  { title: "Version Control and Collaboration", content: `Used GitHub (graphical and command-line), VSCode, WebStorm, and Arduino to
+  { title: "Version Control and Collaboration", content: `Used GitHub (graphical and command-line), VS Code, WebStorm, and Arduino to
     ensure professional development workflows and collaboration.`
   },
   { title: "Microcontroller Programming",
@@ -241,8 +241,8 @@ const mechanicalAccordion = [
   },
   { title: "Newtonian Physics", content: `This calculus-based course covered the energy, momentum, and kinematics.` 
   },
-  { title: "Modern Physics", content: `This calculus-based course covered special and general relativity, as well as quantum energy such
-    as photons. The foundations of quantum mechanics were introduced as well.` 
+  { title: "Modern Physics", content: `This calculus-based course covered special and general relativity, and the foundations of quantum mechanics
+    were introduced as well.` 
   },
 ]
 
@@ -251,7 +251,7 @@ const toolsAccordion = [
     content: (
       <div className="space-y-4">
         <p>
-          The engineering software and tools I used included:
+          The engineering software and tools used included:
         </p>
         <ul className="list-disc pl-5 mb-2 space-y-1">
           <li>SOLIDWORKS CAD, Finite Element Analysis, and CAM</li>

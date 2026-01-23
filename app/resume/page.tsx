@@ -159,7 +159,7 @@ export default function Resume() {
                 icon={
                   <Image
                     src="/tailwindCSS.png"
-                    alt="Tailwindcss logo"
+                    alt="Tailwind CSS logo"
                     width={24}
                     height={24}
                     style={{ height: "auto", width: "auto" }}
