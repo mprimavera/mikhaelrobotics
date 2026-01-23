@@ -1,18 +1,8 @@
 'use client'
 
 import { Timeline } from "@/components/ui/timeline";
-import { Button } from "@/components/ui/button"
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { GridItem } from "../components/grid_item";
-import { GraduationCap, Github, Linkedin  } from "lucide-react";
+import { GraduationCap, Github, Linkedin } from "lucide-react";
 import { GridItem2 } from "../components/grid_item_2";
 import { IconBrandNextjs, IconBrandVscode } from "@tabler/icons-react";
 import Image from "next/image";
@@ -33,16 +23,17 @@ export default function Resume() {
             Quantitative Research and Algorithmic Trading Systems
           </p>
             <ul 
-              className="list-disc pl-5 space-y-1 mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-                <li> Designed and implemented systematic trading algorithms across multiple commodities, using statistical modeling,
-                  probability theory, and historical datasets to evaluate strategy performance. 
+              className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
+                <li>
+                  Designed and implemented systematic trading algorithms across multiple commodities, using statistical modeling,
+                  probability theory, and historical datasets to evaluate strategy performance
                 </li>
                 <li>
                   Developed end-to-end workflows including data acquisition, signal generation, backtesting, and parameter optimization,
-                  with disciplined tracking of performance metrics and risk. 
+                  with disciplined tracking of performance metrics and risk
                 </li>
                 <li>
-                  Translated research insights into executable code, supporting iterative refinement of models under real-world market conditions. 
+                  Translated research insights into executable code, supporting iterative refinement of models under real-world market conditions
                 </li>
             </ul>
           </div>
@@ -53,8 +44,57 @@ export default function Resume() {
       content: (
         <div>
           <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Johns Hopkins University — MS in Artificial Intelligence (Admitted under provisional status, anticipated program start Jan 2027)
-          </p>  
+            Johns Hopkins University — MS in Artificial Intelligence
+          </p>
+          <ul 
+            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
+            <li>
+              Admitted under provisional status
+            </li>
+            <li>
+              Anticipated program start January 2027
+            </li>
+          </ul>
+        </div>
+      ),
+    },
+
+    {
+      title: "12/2025",
+      content: (
+      <div>
+        <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          Worcester Polytechnic Institute — BS in Robotics Engineering
+        </p>
+        <ul 
+          className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
+          <li>
+            Graduated December 2025, with High Distinction honors
+          </li>
+          <li>
+            GPA: 3.92 / 4.00
+          </li>
+        </ul>
+          <div className="space-y-9">
+          {/* View Diploma */}
+            <div className="w-full max-w-md mx-auto">
+              <GridItem
+                area="auto"
+                icon={
+                  <GraduationCap className="h-6 w-6 text-neutral-400" />
+                }
+                title={
+                  <button
+                    onClick={() => setOpen(true)}
+                    className="text-blue-400 hover:underline text-center"
+                  >
+                    View Diploma (PDF)
+                  </button>
+                }
+                description={null}
+              />
+            </div>
+          </div>
         </div>
       ),
     },
@@ -66,17 +106,19 @@ export default function Resume() {
           <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
             Developed this React project as a portfolio
           </p>
-            <p 
-              className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-                I custom-built this portfolio completely from scratch (no templates or tutorials). I used VS Code as my IDE, GitHub,
-                Next.js with React-based routing, Tailwind CSS, Aceternity UI, Shadcn UI, Lucide, and ChatGPT.
-            </p>
-
-            <p 
-              className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-                I purchased a domain and will use Vercel to host the site. 
-            </p>          
-          <div className="w-full">
+          <ul 
+            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
+            <li>
+              Custom-built this portfolio completely from scratch (no templates or tutorials).
+            </li>
+            <li>
+              Built using VS Code, GitHub, Next.js with React-based routing, Tailwind CSS, Aceternity UI, Shadcn UI, Lucide, and ChatGPT
+            </li>
+            <li>
+              Hosted the site on Vercel
+            </li>
+          </ul>      
+          <div className="w-full mt-6">
             <div
               className="
                 grid
@@ -204,40 +246,6 @@ export default function Resume() {
     },
 
     {
-      title: "12/2025",
-      content: (
-      <div>
-        <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-          Graduated with a B.S. in Robotics Engineering from WPI with a 3.92 GPA
-        </p>
-          <p 
-            className="mb-2 text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-              I graduated December 30, 2025, with High Distinction honors—the highest academic honor awarded by WPI.
-          </p>
-          <div className="space-y-9">
-          {/* View Diploma */}
-            <div className="w-full max-w-md mx-auto">
-              <GridItem
-                area="auto"
-                icon={
-                  <GraduationCap className="h-6 w-6 text-neutral-400" />
-                }
-                title={
-                  <button
-                    onClick={() => setOpen(true)}
-                    className="text-blue-400 hover:underline text-center"
-                  >
-                    View Diploma (PDF)
-                  </button>
-                }
-                description={null}
-              />
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
       title: "2022-2023",
       content: (
         <div>
@@ -245,16 +253,16 @@ export default function Resume() {
             Robotics: Field service engineering and system integration at Milara Inc.
           </p>
           <ul 
-          className="list-disc pl-5 space-y-1 mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
+            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
               As a member of the software team, collaborated with electrical and mechanical engineering teams to debug, calibrate,
-              validate, and commission robotic sorting and handling systems deployed in semiconductor manufacturing environments. 
+              validate, and commission robotic sorting and handling systems deployed in semiconductor manufacturing environments
             </li>
             <li>
-              Promoted twice within one year based on technical performance. 
+              Promoted twice within one year based on technical performance
             </li>
             <li>
-              Authored documentation of technical procedures used for training new technicians. 
+              Authored documentation of technical procedures used for training new technicians
             </li>
           </ul>
       </div>
@@ -269,13 +277,13 @@ export default function Resume() {
             Founder: Owned and operated an e-commerce store
           </p>
           <ul 
-          className="list-disc pl-5 space-y-1 mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
+            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
-              Designed, manufactured, and sold custom CNC-machined products through a self-developed e-commerce platform.
+              Designed, manufactured, and sold custom CNC-machined products through a self-developed e-commerce platform
             </li>
             <li>
               Managed CAD/CAM workflows and CNC programming, marketing strategy, supplier logistics, production processes, quality
-              controls, and end-to-end customer support. 
+              controls, and end-to-end customer support
             </li>
           </ul>
         </div>
@@ -290,12 +298,9 @@ export default function Resume() {
             Logistics Manager / CNC Machinist at MetalPro USA Inc.
           </p>
           <ul 
-          className="list-disc pl-5 space-y-1 mb-2 text-slate-500 sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
+            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
-              Led logistics, inventory control, production scheduling, and workflow optimization.
-            </li>
-            <li>
-              Programmed and operated CNC mills, lathes, laser engravers, and multi-axis machining centers.
+              Led logistics, inventory control, production scheduling, and workflow optimization
             </li>
           </ul>
         </div>
@@ -309,11 +314,13 @@ export default function Resume() {
         <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
           CNC Machinist at MetalPro USA Inc.
         </p>
-        <p 
-          className="mb-2 font-normal text-slate-500  sm:break-normal max-w-full sm:text-2xl leading-10 tracking-tight">
-          I programmed and ran Epilog laser engravers, Hurco VM5i and VM10i mills, a Haas Mill, a Matsuura MAM72-70V Mill, a Fanuc
-          Robodrill, and I operated bar-fed Mazak and Omniturn lathes. 
-        </p>
+        <ul 
+            className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
+          <li> 
+          Programmed Epilog laser engravers, Hurco VM5i and VM10i mills, a Haas Mill, a Matsuura MAM72-70V Mill, a Fanuc
+          Robodrill, and operated bar-fed Mazak and Omniturn lathes
+          </li>
+        </ul>
       </div>
     ),
   },
