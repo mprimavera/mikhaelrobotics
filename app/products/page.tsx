@@ -16,7 +16,7 @@ const MQPAccordion = [
 
 
         {/* Centered button */}
-        <div className="flex justify-center mb-2">
+        {/* <div className="flex justify-center mb-2">
           <a
             href="https://youtu.be/SDK4FM9hwQk?si=jGM9AAmJBe8BWb_u"
             target="_blank"
@@ -28,7 +28,7 @@ const MQPAccordion = [
               Watch Video
             </button>
           </a>
-        </div>
+        </div> */}
       </div>
     ),
   },

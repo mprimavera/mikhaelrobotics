@@ -26,11 +26,10 @@ const CSAccordion = [
   the graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
   },
   { title: "SQL", content: `I used SQL in Software Engineering to collaboratively design and implement a backend database for storing user information and
-    integrate it with the user-facing front end.`
+    integrated it with the user-facing front end.`
   }, 
   { title: "Version Control and Collaboration", content: (`Used GitHub (graphical and command-line), VSCode, WebStorm, and Arduino to
     ensure professional development workflows and collaboration.`),
-    defaultOpen: true,
   },
   { title: "Microcontroller Programming",
     content: (
@@ -68,7 +67,6 @@ const CSAccordion = [
       </div>
       
     ),
-    defaultOpen: true,
   },
   {
     title: "WPI Practicum: Writing for the Web (HTML and CSS)",
@@ -258,7 +256,7 @@ const toolsAccordion = [
         <p>
           The engineering software and tools I used included:
         </p>
-        <ul className="list-disc pl-5 space-y-1">
+        <ul className="list-disc pl-5 mb-2 space-y-1">
           <li>SOLIDWORKS CAD, Finite Element Analysis, and CAM</li>
           <li>Fusion 360 CAD and CAM</li>
           <li>MATLAB for mathematical modeling, vision sensors, as well as mechanical and electrical system simulations</li>
@@ -290,7 +288,7 @@ const MQPAccordion = [
           <li>Developed a laser probe and safety system for the automatic tool changer</li>
           <li>Calibrated axis motors and drivers</li>
           <li>Created new fixturing for the work area</li>
-          <li>Contributed significantly to ten of the fourteen sections of the MQP final report</li>
+          <li>Contributed significantly to ten of the fourteen sections of our 324-page MQP final report</li>
         </ul>
 
         {/* Centered button */}
