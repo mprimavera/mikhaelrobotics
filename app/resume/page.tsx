@@ -53,7 +53,7 @@ export default function Resume() {
       content: (
         <div>
           <p className="mb-2 sm:mb-6 font-normal text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
-            Applied for M.S. in Artificial Intelligence (online), starting May 2026
+            Johns Hopkins University — MS in Artificial Intelligence (Admitted under provisional status, anticipated program start Jan 2027)
           </p>  
         </div>
       ),

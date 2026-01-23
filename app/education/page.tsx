@@ -19,14 +19,11 @@ const CSAccordion = [
   },
   { title: "thinkScript", content: `Developed and deployed trading strategies in thinkScript, translating research insights into actionable, testable models.`
   },
-  { title: "C and C++", content: `I programmed in C and C++ for automation based on sensor feedback. This experience strengthened my
-    understanding of low-level memory management and data representation—and how this knowledge pertains to higher-level languages such as Python.` 
-  },
   { title: "Linux OS", content: `I used Linux extensively throughout the robotics curriculum. I have experience with both
   the graphical and command-line interfaces. For version control workflows, I primarily use Git via the command-line interface (Git Bash).` 
   },
-  { title: "SQL", content: `I used SQL in Software Engineering to collaboratively design and implement a back end database for storing user information and
-    integrated it with the user-facing front end.`
+  { title: "SQL", content: `I worked with PostSQL in Software Engineering to collaboratively integrate a back end database, for storing user information, with
+    the user-facing front end.`
   }, 
   { title: "Version Control and Collaboration", content: `Used GitHub (graphical and command-line), VSCode, WebStorm, and Arduino to
     ensure professional development workflows and collaboration.`
