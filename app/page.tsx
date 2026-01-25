@@ -15,7 +15,7 @@ function ProjectSection({
   return (
     <section className="mb-4">
       <h1 className="max-w-full text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-10 tracking-tight text-slate-400
-        pb-6 sm:pb-6 md:pb-2 lg:pb-8 pt-4">
+        pb-6 sm:pb-6 md:pb-6 lg:pb-8 pt-4">
         Michael Primavera
       </h1>
       <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-xl sm:text-2xl md:text-2xl
