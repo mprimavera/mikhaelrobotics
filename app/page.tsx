@@ -46,9 +46,8 @@ export default function Home() {
             <ProjectSection title="Robotics Engineer & Software Developer">
               <div className="w-full max-w-7xl mx-auto px-4">
                 <p className="text-base sm:text-xl text-slate-500 pt-4 mb-6">
-                  This site showcases my production-quality software engineering work through real projects, with additional engineering
-                  projects, quantitative systems, and product development examples available for deeper review.
-
+                  This site showcases my production-quality software engineering work through real projects, with additional
+                  quantitative systems and product development examples available for deeper review.
                 </p>
               </div>
             </ProjectSection>
