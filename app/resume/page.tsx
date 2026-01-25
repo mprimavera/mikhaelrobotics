@@ -255,7 +255,7 @@ export default function Resume() {
           <ul 
             className="list-disc pl-5 space-y-1 mb-2 text-slate-500 lg:text-xl md:text-base lg:max-w-4xl sm:break-normal max-w-full leading-10 tracking-tight">
             <li> 
-              Company: Milara
+              Company: Milara Inc.
             </li>
             <li>
               Location: Milford, MA
