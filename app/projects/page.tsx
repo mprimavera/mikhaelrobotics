@@ -121,7 +121,7 @@ export default function Projects() {
                 </BackgroundGradient>
               </div>
               {/* Adjustable Duty Cycle */}
-              <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+              {/* <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
                 <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                   <div className="w-full aspect-video mb-4">
                     <iframe
@@ -145,7 +145,7 @@ export default function Projects() {
                     </p>
                   </div>
                 </BackgroundGradient>
-              </div>
+              </div> */}
               {/* ADC Voltmeter */}
               <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
                 <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
@@ -175,117 +175,7 @@ export default function Projects() {
           </ProjectSection>
         </div>
 
-        {/* ===== Entrepreneurial & Independent Projects ===== */}
-        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
-          <ProjectSection title="Entrepreneurial & Independent Projects">
-            {/* Dynamic Price Modeling */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/ImnPgaXRYiE?si=qbOXJHOjimXK0Olx"
-                    title="Dynamic Price Modeling"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  Dynamic price modeling using MATLAB and multivariable calculus
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500 pb-2">
-                    I used fixed and variable costs to develop a formula in which the intersection of a level plane with a 3D
-                    curve yielded the price required to sell a variable quantity while achieving a constant profit rate.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* The Essence of Mathematics: Simplicity */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto mb-8">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/N_LkVzzLo98?si=wY2LWoX80kVWySSI"
-                    title="The Essence of Mathematics: Simplicity"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  The Essence of Mathematics: Simplicity
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500 pb-2">
-                    I created this video to share the greatest takeaway I had from learning math and physics.
-                  </p>
-                  <p className="text-sm text-slate-500">
-                    I made a handful of other tutorials as well. Those videos received over 185,000 views, but it wasn’t enough
-                    to justify dedicating the time, which I decided was better spent furthering my own knowledge.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* Ethereum mining rig */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/iZbmoNKK79Q?si=ySQ3apqZFEGSVdLW"
-                    title="AlphaOmega LLC First Prototype: Cryptocurrency Mining Rig"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  AlphaOmega LLC's first prototype: cryptocurrency mining rig
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    After the Bitcoin price spike in late 2017, I built an Ethereum mining rig. At the time, rigs sold for
-                    $10,000–$20,000 online, but I built mine for ~$1,200. This resulted in a potential for significant profit.
-                  </p>
-                  <p className="text-sm text-slate-500">
-                    This marked the beginning of AlphaOmega LLC.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* Additive manufacturing prototyping */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/wOfjqY_zv5k?si=st4e9MHhEL03FJ1Z"
-                    title="Additive Manufacturing Prototyping"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  Additive manufacturing prototyping of a new ergonomic thumbscrew design
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    This video demonstrates my experience prototyping with additive manufacturing. It is more cost-effective to develop
-                    ideas in CAD, then produce parts on a 3D printer, before subtractive manufacturing.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-          </ProjectSection>
-        </div>
+
 
         {/* ===== End-to-End Engineering Project: Mini CNC Mill ===== */}
         <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
@@ -341,58 +231,6 @@ export default function Projects() {
                 </div>
               </BackgroundGradient>
             </div>
-            {/* MQP mini CNC mill bed leveling torque test */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/dUWLDC4rL10?si=-Ljyafnw-oXDsngT"
-                    title="MQP mini CNC mill bed leveling torque test"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  MQP mini CNC mill: successful bed leveling torque test
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    This video documents successful testing of the helicoil’s ability to withstand the torque calculated to
-                    fasten the mini CNC mill’s work plate to the linear rails and ball screw. The test was performed on scrap
-                    materials before machining the actual work plate, keeping the project within budget.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* MQP mini CNC mill bed leveling implementation */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/TDziKYPmKuU?si=am7WkGicJQjHP1yd"
-                    title="MQP mini CNC mill bed leveling helicoil torque testing"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  MQP mini CNC mill: successful bed leveling implementation
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    This video shows the mechanical bed leveling I engineered, successfully integrated into a mini CNC mill.
-                    The bed could be leveled within ±127 µm across the length and width of the work plate, which held the vice
-                    for machining parts.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
             {/* MQP mini CNC mill: presentation of FMEA analysis for a tool probing concept */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
@@ -417,79 +255,6 @@ export default function Projects() {
                 </div>
               </BackgroundGradient>
             </div>
-            {/* MQP mini CNC mill: presentation of space restrictions for add-ons */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/gQxDrpg8AZk?si=MbQkz4IWz_AYlgvJ"
-                    title="MQP mini CNC mill: presentation of finalized R&D phase"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  MQP mini CNC mill: presentation of space restrictions for add-ons
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    The points I made in this video and the FMEA video ultimately led our team to change the design from a conductive
-                    tool probe to a laser probe.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div>
-            {/* MQP mini CNC mill stepper motor and driver calibration */}
-            {/* <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/_zweEVm8UzY?si=8ROtlGtbpqZbNMk3"
-                    title="MQP mini CNC mill e-stop"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  MQP mini CNC mill: stepper motor and driver calibration
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    This video shows the successful calibration of the stepper motor's driver. The movement is smooth and controlled.
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div> */}
-            {/* MQP mini CNC mill e-stop */}
-            {/* <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
-              <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
-                <div className="w-full aspect-video mb-4">
-                  <iframe
-                    loading="lazy"
-                    className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/QSF5KapfTn4?si=a8W2FWM4IfbEctrs"
-                    title="MQP mini CNC mill e-stop"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <p className="text-base sm:text-xl mt-4 mb-2 text-slate-400">
-                  MQP mini CNC mill: successful e-stop testing
-                </p>
-                <div className="mb-2 max-h-40 sm:max-h-40 overflow-y-auto pr-2">
-                  <p className="text-sm text-slate-500">
-                    This video shows the successful testing of the e-stop system developed for the mini CNC mill. Our team designed the e-stop to be normally closed, cutting power to the motor drivers while preserving CNC computer status and control. (The rattling sound in the background is the room heater.)
-                  </p>
-                </div>
-              </BackgroundGradient>
-            </div> */}
           </ProjectSection>
         </div>
       </div>
