@@ -34,18 +34,18 @@ export function NavbarMenu() {
       name: "Projects",
       link: "/projects",
     },
-    {
-      name: "Machines",
-      link: "/machines",
-    },
-    {
-      name: "Products",
+      {
+      name: "Product Development",
       link: "/products",
     },
-    {
-      name: "IP",
-      link: "/ip",
-    },
+    // {
+    //   name: "Machines",
+    //   link: "/machines",
+    // },
+    // {
+    //   name: "IP",
+    //   link: "/ip",
+    // },
     // {
     //   name: "Coming Soon",
     //   link: "/comingSoon",

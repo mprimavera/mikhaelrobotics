@@ -9,12 +9,11 @@ const MQPAccordion = [
   {
     title: "Π: Digital Contact Cards",
     content: (
-      <div className="space-y-4 pb-2">
-        <p>
-          This was my first software-driven product. I developed a custom Python script to generate QR codes optimized for smartphone cameras.
-        </p>
-
-
+    <div className="space-y-4 pb-2">
+      <p>
+        This was my first software-driven product. I developed a custom Python script to generate QR codes optimized for automatically
+        storing contact information—simply scan with the native camera app and tap once to save to contacts.
+      </p>
         {/* Centered button */}
         {/* <div className="flex justify-center mb-2">
           <a
@@ -29,7 +28,7 @@ const MQPAccordion = [
             </button>
           </a>
         </div> */}
-      </div>
+    </div>
     ),
   },
 ];

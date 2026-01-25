@@ -38,7 +38,7 @@ export default function Projects() {
         </div>
 
         {/* ===== Robotics ===== */}
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="Robotics">
             {/* Industrial Robotics */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
@@ -93,7 +93,7 @@ export default function Projects() {
         </div>
 
         {/* ===== Embedded Systems ===== */}
-          <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
+          <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
             <ProjectSection title="Embedded Systems">
               {/* Embedded systems PD control*/}
               <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
@@ -176,7 +176,7 @@ export default function Projects() {
         </div>
 
         {/* ===== Entrepreneurial & Independent Projects ===== */}
-        <div className="border rounded-3xl text-slate-400/50 mb-12 pt-4 bg-black/70 min-w-[410px]">
+        <div className="border rounded-3xl text-slate-400/50 mb-16 pt-4 bg-black/70 min-w-[410px]">
           <ProjectSection title="Entrepreneurial & Independent Projects">
             {/* Dynamic Price Modeling */}
             <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
@@ -443,7 +443,7 @@ export default function Projects() {
               </BackgroundGradient>
             </div>
             {/* MQP mini CNC mill stepper motor and driver calibration */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+            {/* <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
@@ -465,9 +465,9 @@ export default function Projects() {
                   </p>
                 </div>
               </BackgroundGradient>
-            </div>
+            </div> */}
             {/* MQP mini CNC mill e-stop */}
-            <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
+            {/* <div className="w-full max-w-[400px] min-w-[400px] mx-auto">
               <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-zinc-900 flex flex-col items-center h-[500px]">    
                 <div className="w-full aspect-video mb-4">
                   <iframe
@@ -489,7 +489,7 @@ export default function Projects() {
                   </p>
                 </div>
               </BackgroundGradient>
-            </div>
+            </div> */}
           </ProjectSection>
         </div>
       </div>
