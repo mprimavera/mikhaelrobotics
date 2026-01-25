@@ -14,10 +14,12 @@ function ProjectSection({
 }) {
   return (
     <section className="mb-4">
-      <h1 className="max-w-full text-4xl sm:text-6xl font-semibold leading-10 tracking-tight text-slate-400 pb-10 pt-4">
+      <h1 className="max-w-full text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-10 tracking-tight text-slate-400
+        pb-6 sm:pb-6 md:pb-2 lg:pb-8 pt-4">
         Michael Primavera
       </h1>
-      <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl pb-4 font-semibold leading-10 tracking-tight">
+      <h3 className="text-center text-slate-400 sm:break-normal max-w-full text-xl sm:text-2xl md:text-2xl
+        pb-2 sm:pb-2 md:pb-2 lg:pb-2 font-semibold leading-10 tracking-tight">
         {title}
       </h3>
       <div className="flex flex-wrap justify-center gap-x-16">

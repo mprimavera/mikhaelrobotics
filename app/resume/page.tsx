@@ -19,7 +19,8 @@ export default function Resume() {
       title: "11/2017 - Present",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
+            text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
             Quantitative Research and Algorithmic Trading Systems
           </p>
           <ul 
@@ -52,7 +53,8 @@ export default function Resume() {
       title: "1/2026",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
+            text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
             Johns Hopkins University — MS in Artificial Intelligence
           </p>
           <ul 
@@ -72,7 +74,8 @@ export default function Resume() {
       title: "12/2025",
       content: (
       <div>
-        <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+        <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
+          text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
           Worcester Polytechnic Institute — BS in Robotics Engineering
         </p>
           <div className="space-y-9">
@@ -103,7 +106,8 @@ export default function Resume() {
       title: "12/2025",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
+            text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
             Developed this React project as a portfolio
           </p>
           <ul 
@@ -249,7 +253,8 @@ export default function Resume() {
       title: "2022-2023",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
+            text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
             Field Service Engineer – Software Team
           </p>
           <ul 
@@ -269,7 +274,8 @@ export default function Resume() {
       title: "2018-2022",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
+            text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
             Founder – Owned and operated an e-commerce store
           </p>
           <ul 
@@ -289,7 +295,8 @@ export default function Resume() {
       title: "1998-2018",
       content: (
         <div>
-          <p className="mb-2 sm:mb-6 text-slate-400  sm:break-normal max-w-full text-lg sm:text-3xl font-semibold leading-10 tracking-tight">
+          <p className="mb-2 sm:mb-6 text-slate-400 sm:break-normal max-w-full
+            text-lg sm:text-lg md:text-3xl lg:text-4xl font-semibold leading-10 tracking-tight">
             Logistics Manager / CNC Machinist
           </p>
           <ul 

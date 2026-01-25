@@ -76,7 +76,7 @@ export function NavbarMenu() {
           <div className="flex items-center gap-4">
             <Link href="/connect">
               <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[3px] focus:outline-none
-              active:outline-none hover:-translate-y-0.5 transition-all duration-300">
+              active:outline-none hover:-translate-y-0.5 transition-all duration-300 w-[9rem]">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
                 bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3
@@ -123,7 +123,7 @@ export function NavbarMenu() {
                 <span className="block">{item.name}</span>
               </a>
             ))}
-            <div className="flex w-full flex-col gap-4">
+            <div className="flex flex-col gap-4 w-[12rem]">
               <Link href="/connect"
                onClick={() => setIsMobileMenuOpen(false)}>
               <button className="relative inline-flex h-12 w-full overflow-hidden rounded-full p-[2px] hover:p-[3px] transition-all
