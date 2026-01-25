@@ -47,7 +47,7 @@ export default function Projects() {
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9"
+                    src="https://www.youtube.com/embed/YAJ9Wzltu34?si=KOFma-CiZnBBG-z9&rel=0"
                     title="Industrial Robotics"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,7 +70,7 @@ export default function Projects() {
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/EnIhbuE6zA0?si=p2Yk1_7nzTG5uk_B"
+                    src="https://www.youtube.com/embed/EnIhbuE6zA0?si=p2Yk1_7nzTG5uk_B&rel=0"
                     title="Robot Vision"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -102,7 +102,7 @@ export default function Projects() {
                     <iframe
                       loading="lazy"
                       className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/JtrBYZ2HA0A?si=AOZyXL8qBJvhRXvJ"
+                      src="https://www.youtube.com/embed/JtrBYZ2HA0A?si=AOZyXL8qBJvhRXvJ&rel=0"
                       title="Embedded Programming"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -153,7 +153,7 @@ export default function Projects() {
                     <iframe
                       loading="lazy"
                       className="w-full h-full rounded-lg"
-                      src="https://www.youtube.com/embed/NoOMwVs4Xgc?si=h2jmUgXBTvQxhXA_"
+                      src="https://www.youtube.com/embed/NoOMwVs4Xgc?si=h2jmUgXBTvQxhXA_&rel=0"
                       title="ADC Voltmeter"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -187,7 +187,7 @@ export default function Projects() {
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/Cx7HpJapaZQ?si=XWw0iW-Nd3knbpQy"
+                    src="https://www.youtube.com/embed/Cx7HpJapaZQ?si=XWw0iW-Nd3knbpQy&rel=0"
                     title="Major Qualifying Project"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -212,7 +212,7 @@ export default function Projects() {
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/4MgPYenIZXw?si=HAi-hV11wRllbVWy"
+                    src="https://www.youtube.com/embed/4MgPYenIZXw?si=HAi-hV11wRllbVWy&rel=0"
                     title="MQP mini CNC mill: presentation of finalized R&D phase"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -238,7 +238,7 @@ export default function Projects() {
                   <iframe
                     loading="lazy"
                     className="w-full h-full rounded-lg"
-                    src="https://www.youtube.com/embed/-mwcSxoPo5E?si=tWpsAsEATLx_ic8H"
+                    src="https://www.youtube.com/embed/-mwcSxoPo5E?si=tWpsAsEATLx_ic8H&rel=0"
                     title="MQP mini CNC mill: presentation of finalized R&D phase"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
