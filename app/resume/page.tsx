@@ -63,7 +63,7 @@ export default function Resume() {
               Admitted under provisional status
             </li>
             <li>
-              Anticipated program start January 2027
+              Anticipated online program start: January 2027
             </li>
           </ul>
         </div>
