@@ -11,7 +11,7 @@ const MQPAccordion = [
     content: (
     <div className="space-y-4 pb-2">
       <p>
-        This was my first software-driven product. I developed a custom Python script to generate QR codes optimized for automatically
+        I developed a custom Python script to generate QR codes optimized for automatically
         storing contact information—simply scan with the native camera app and tap once to save to contacts.
       </p>
         {/* Centered button */}
