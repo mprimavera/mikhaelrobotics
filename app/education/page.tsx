@@ -199,7 +199,7 @@ const RoboticsAccordion = [
 ]
 
 const electricalAccordion = [
-  { title: "Communications Protocols", content: (
+  { title: "Communication Protocols", content: (
     <div className="space-y-4">
       <p>
         Communication protocols were applied extensively in robotics and embedded systems coursework.
